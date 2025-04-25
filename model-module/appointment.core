@@ -19,6 +19,7 @@
           <parameters id="_4-oYUCHxEfC5wJZdT1cTeg" name="appointmentId">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </parameters>
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_hK3rYCH1EfC5wJZdT1cTeg" name="Update Appointment"/>
           <viewComponentParts xsi:type="core:DataBinding" id="_CWbOICHyEfC5wJZdT1cTeg" name="Edit Appointment Data" uniformResourceIdentifier="call/appointment/update">
             <subViewComponentParts xsi:type="ext:SimpleField" id="_kLg5QCHyEfC5wJZdT1cTeg" name="startTime">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
@@ -54,6 +55,12 @@
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_ddgo0CH1EfC5wJZdT1cTeg" name="Action">
+        <annotations text="POST"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_kYZ-YCH1EfC5wJZdT1cTeg" name="Action">
+        <annotations text="PUT"/>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
