@@ -2,7 +2,9 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_Ua0IACHvEfChD41pi9QTAQ">
   <interactionFlowModel id="_u28BgCHvEfChD41pi9QTAQ">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_u2_r4CHvEfChD41pi9QTAQ" name="ProjectWithMembers">
+      <annotations text="AddedFeature"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_7M21UCHvEfChD41pi9QTAQ" name="Create Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/projects/create"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_MmgowCHwEfChD41pi9QTAQ" name="Create Project Form">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_7vKbsCHwEfChD41pi9QTAQ" name="Create Project">
             <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_HPY2QCH0EfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4">
@@ -20,6 +22,7 @@
         <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_VJs8YCHxEfChD41pi9QTAQ" name="Edit Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/projects/edit"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_ciu_cCHxEfChD41pi9QTAQ" name="Modified Form">
           <parameters id="_XuYNsCHzEfChD41pi9QTAQ" name="projectId" direction="inout"/>
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_UovH4CHyEfChD41pi9QTAQ" name="Edit Project">
@@ -38,6 +41,7 @@
         <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_lCZd8CHyEfChD41pi9QTAQ" name="Project Detail Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/projects/:projectId"/>
         <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_nGB3sCH0EfChD41pi9QTAQ" name="Edit">
           <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_qEqMACH0EfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1">
             <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0"/>
@@ -54,6 +58,7 @@
         <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_lpe2oCHzEfChD41pi9QTAQ" name="Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0">
+        <annotations text="/projects"/>
         <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_zOSqACH0EfChD41pi9QTAQ" name="Create Project">
           <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_9ePP0CH0EfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0">
             <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElementEvents.0/@outInteractionFlows.0"/>
@@ -72,6 +77,7 @@
         <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedAction" id="_24OakCHzEfChD41pi9QTAQ" name="Save Projectwithmembers" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
         <actionEvents xsi:type="dop-extension:ModifiedActionEvent" id="_QefDECH0EfChD41pi9QTAQ" name="ModifiedActionEvent">
           <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_YnkqECH0EfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
             <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0"/>
@@ -81,6 +87,7 @@
         <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedAction" id="_85jq4CHzEfChD41pi9QTAQ" name="Update Projectwithmembers" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="PUT"/>
         <actionEvents xsi:type="dop-extension:ModifiedActionEvent" id="_RfKc8CH0EfChD41pi9QTAQ" name="ModifiedActionEvent">
           <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_ZwA40CH0EfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
             <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0"/>
