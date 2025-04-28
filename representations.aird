@@ -50,7 +50,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="model-module/burndownByMember.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_nKrLUCHtEfC5wJZdT1cTeg" name="Appointment IFMLDiagram" repPath="#_nKGjkCHtEfC5wJZdT1cTeg" changeId="1745599919725">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_nKrLUCHtEfC5wJZdT1cTeg" name="appointment" repPath="#_nKGjkCHtEfC5wJZdT1cTeg" changeId="1745599919725">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="model-module/appointment.core#/"/>
       </ownedRepresentationDescriptors>
@@ -58,7 +58,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="model-module/notes.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qI6a4CHpEfCEXJqvmcK_5Q" name="task-ifml" repPath="#_qI3XkCHpEfCEXJqvmcK_5Q" changeId="1745811800180">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qI6a4CHpEfCEXJqvmcK_5Q" name="task" repPath="#_qI3XkCHpEfCEXJqvmcK_5Q" changeId="1745811800180">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="model-module/task.core#/"/>
       </ownedRepresentationDescriptors>
