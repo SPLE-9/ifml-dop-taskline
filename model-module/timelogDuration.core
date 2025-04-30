@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_pdP4oCHyEfCVlqDIl36G1g">
+  <interactionFlowModel id="_z8YJ8CHyEfCVlqDIl36G1g">
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_z8dCcCHyEfCVlqDIl36G1g" name="TimelogDuration">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_6IrUICHyEfCVlqDIl36G1g" name="Add Timelog Page">
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_STMFcCH1EfCVlqDIl36G1g" name="Form Add Timelog">
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_VHA38CH1EfCVlqDIl36G1g" name="Duration">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_cVLu0CH1EfCVlqDIl36G1g" name="duration"/>
+          </viewComponentParts>
+        </viewElements>
+        <modifies href="timelog.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_Z7r18CH3EfCVlqDIl36G1g" name="Edit Timelog Page">
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_iUGSYCH3EfCVlqDIl36G1g" name="Form Edit Timelog">
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_zXmPoCH3EfCVlqDIl36G1g" name="Duration">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_4eQAYCH3EfCVlqDIl36G1g" name="duration"/>
+          </viewComponentParts>
+        </viewElements>
+        <modifies href="timelog.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_pdP4oSHyEfCVlqDIl36G1g">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pdskkCHyEfCVlqDIl36G1g" name="UserImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_qECIsCEqEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZwCHyEfCVlqDIl36G1g" name="userId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_HeCIkCErEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZwSHyEfCVlqDIl36G1g" name="email">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_S6EuECErEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZwiHyEfCVlqDIl36G1g" name="name">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_TmRswCErEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZwyHyEfCVlqDIl36G1g" name="ProjectImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_bHiCQCEsEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZxCHyEfCVlqDIl36G1g" name="projectId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_gwhrECEsEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZxSHyEfCVlqDIl36G1g" name="title">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_hjeK8CEsEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZxiHyEfCVlqDIl36G1g" name="description">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_iJV4ICEsEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZxyHyEfCVlqDIl36G1g" name="completion">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_iC1YICGHEfChD41pi9QTAQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZyCHyEfCVlqDIl36G1g" name="ProjectImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_9MVnIiGqEfCeUs9mEJ0Sdw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZySHyEfCVlqDIl36G1g" name="projectId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_9MVnIyGqEfCeUs9mEJ0Sdw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZyiHyEfCVlqDIl36G1g" name="title">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_9MVnJCGqEfCeUs9mEJ0Sdw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZyyHyEfCVlqDIl36G1g" name="description">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_9MVnJSGqEfCeUs9mEJ0Sdw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZzCHyEfCVlqDIl36G1g" name="completion">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_9MVnJiGqEfCeUs9mEJ0Sdw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZzSHyEfCVlqDIl36G1g" name="ProjectImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_C3LK0CEuEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZziHyEfCVlqDIl36G1g" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_JMaZICEvEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZzyHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_huaIQSEvEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ0CHyEfCVlqDIl36G1g" name="getProjectsByUser">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_QwzNECEuEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ0SHyEfCVlqDIl36G1g" name="NotesImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_v_aS0CGqEfCeUs9mEJ0Sdw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ0iHyEfCVlqDIl36G1g" name="notesId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_VJCbYCGsEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ0yHyEfCVlqDIl36G1g" name="title">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_ffpp4CGsEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ1CHyEfCVlqDIl36G1g" name="notes">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_vlnn4CGsEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ1SHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_Ip81wCGyEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ1iHyEfCVlqDIl36G1g" name="NotesImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_WM3vkCGvEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ1yHyEfCVlqDIl36G1g" name="notesimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_NV5SYCGwEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ2CHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_UhIfIiGyEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ2SHyEfCVlqDIl36G1g" name="getSharedUsers">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_7ABm8CGyEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ2iHyEfCVlqDIl36G1g" name="AppointmentImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_Cb8zsCG4EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ2yHyEfCVlqDIl36G1g" name="startTime">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_a77JkCG4EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ3CHyEfCVlqDIl36G1g" name="endTime">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_hBQJECG4EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ3SHyEfCVlqDIl36G1g" name="description">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_jPrIcCG4EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ3iHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_RjHVMiG6EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ3yHyEfCVlqDIl36G1g" name="InvitedUserImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_5-3nwCG5EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ4CHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_Di3REiG7EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ4SHyEfCVlqDIl36G1g" name="appointmentimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_ij8RkiG9EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ4iHyEfCVlqDIl36G1g" name="TimelogImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_dJPKICHCEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ4yHyEfCVlqDIl36G1g" name="timelogId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_kWUb4CHCEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ5CHyEfCVlqDIl36G1g" name="taskId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_vNLQsCHCEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ5SHyEfCVlqDIl36G1g" name="userId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_0a7H8CHCEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ5iHyEfCVlqDIl36G1g" name="timelogDate">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_7CKhsCHCEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ5yHyEfCVlqDIl36G1g" name="timelogType">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_GlDWECHDEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ6CHyEfCVlqDIl36G1g" name="timelogNotes">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_RcidACHDEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ6SHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_4iSsUiHKEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ6iHyEfCVlqDIl36G1g" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_y8BGsCHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ6yHyEfCVlqDIl36G1g" name="getTimelogDetail">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_kBEIICHDEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ7CHyEfCVlqDIl36G1g" name="validateTimelog">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_uRDxQCHDEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ7SHyEfCVlqDIl36G1g" name="TimelogImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_bqd0ICHEEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ7iHyEfCVlqDIl36G1g" name="timelogDuration">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_TOWmoCHIEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ7yHyEfCVlqDIl36G1g" name="timelogimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_z25UMCHKEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ8CHyEfCVlqDIl36G1g" name="getTotalDuration">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_e2GF0CHIEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ8SHyEfCVlqDIl36G1g" name="TimelogImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_4W_GICHIEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ8iHyEfCVlqDIl36G1g" name="startTime">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#__4-Q4CHIEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ8yHyEfCVlqDIl36G1g" name="endTime">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_FjjOECHJEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ9CHyEfCVlqDIl36G1g" name="timelogimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_uquxUCHKEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ9SHyEfCVlqDIl36G1g" name="calculateTotalDuration">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_OnU7sCHJEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ9iHyEfCVlqDIl36G1g" name="getIsOnGoing">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_VQhdQCHJEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduZ9yHyEfCVlqDIl36G1g" name="endSession">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_aeHjgCHJEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduZ-CHyEfCVlqDIl36G1g" name="TaskImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_oRmSwCHPEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ-SHyEfCVlqDIl36G1g" name="taskId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_shbwQCHPEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ-iHyEfCVlqDIl36G1g" name="title">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_DQds8CHQEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ-yHyEfCVlqDIl36G1g" name="description">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_QtPbICHQEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ_CHyEfCVlqDIl36G1g" name="status">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_uIle0CHQEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ_SHyEfCVlqDIl36G1g" name="createdAt">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_vWu3gCHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ_iHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_6qspoiHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduZ_yHyEfCVlqDIl36G1g" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_I8dfESHTEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduaACHyEfCVlqDIl36G1g" name="getTasksByProject">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_dfNQwCHbEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduaASHyEfCVlqDIl36G1g" name="TaskImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_Y8CMECHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaAiHyEfCVlqDIl36G1g" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_ntVAsCHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduaAyHyEfCVlqDIl36G1g" name="getTaskComments">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_dnOI0CHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduaBCHyEfCVlqDIl36G1g" name="CommentImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_nUwlICHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaBSHyEfCVlqDIl36G1g" name="commentId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_qrsrwCHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaBiHyEfCVlqDIl36G1g" name="content">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_yalDACHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaByHyEfCVlqDIl36G1g" name="createdAt">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_1YOf4CHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaCCHyEfCVlqDIl36G1g" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_9ACl0iHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaCSHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_Zvyu0iHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduaCiHyEfCVlqDIl36G1g" name="AnalyticImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_1HTgQCHXEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaCyHyEfCVlqDIl36G1g" name="analyticId">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_4S-yECHXEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaDCHyEfCVlqDIl36G1g" name="startDate">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_GuCGYCHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaDSHyEfCVlqDIl36G1g" name="endDate">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_JlpzwCHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaDiHyEfCVlqDIl36G1g" name="totalTasks">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_MoIGQCHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaDyHyEfCVlqDIl36G1g" name="plannedWork">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_V-CFsCHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaECHyEfCVlqDIl36G1g" name="actualWork">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_ahwvkCHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduaESHyEfCVlqDIl36G1g" name="AnalyticImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_oOu14CHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaEiHyEfCVlqDIl36G1g" name="analyticimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_PgzHECHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaEyHyEfCVlqDIl36G1g" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_T-nWMiHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduaFCHyEfCVlqDIl36G1g" name="calculateBurndownData">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_uJPsgCHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduaFSHyEfCVlqDIl36G1g" name="AnalyticImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_0ca6wSHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduaFiHyEfCVlqDIl36G1g" name="calculateBurndownData">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_0ca6wiHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduaFyHyEfCVlqDIl36G1g" name="AnalyticImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_1ja_ESHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduaGCHyEfCVlqDIl36G1g" name="calculateBurndownData">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_1ja_EiHYEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pduaGSHyEfCVlqDIl36G1g" name="AnalyticImpl">
+      <classifier xsi:type="uml:Class" href="../uml-dop-taskline.uml#_A023ECHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaGiHyEfCVlqDIl36G1g" name="analyticimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_JlipkCHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaGyHyEfCVlqDIl36G1g" name="userimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_e8_vUiHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_pduaHCHyEfCVlqDIl36G1g" name="calculateBurndownData">
+      <behavioralFeature xsi:type="uml:Operation" href="../uml-dop-taskline.uml#_EcByECHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pduaHSHyEfCVlqDIl36G1g" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_JMbnQCEvEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA0CHyEfCVlqDIl36G1g" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_huavUSEvEfCMHZENt9PlSA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA0SHyEfCVlqDIl36G1g" name="notesimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_NV55cCGwEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA0iHyEfCVlqDIl36G1g" name="notesimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_IqAgICGyEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA0yHyEfCVlqDIl36G1g" name="notesimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_UhMJgCGyEfCXNctFrykyhA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA1CHyEfCVlqDIl36G1g" name="appointmentimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_RjH8QiG6EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA1SHyEfCVlqDIl36G1g" name="inviteduserimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_Di4fMiG7EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA1iHyEfCVlqDIl36G1g" name="inviteduserimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_ij84oiG9EfCHyP3Jxw372Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA1yHyEfCVlqDIl36G1g" name="timelogimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_uqvYYiHKEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA2CHyEfCVlqDIl36G1g" name="timelogimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_z257QSHKEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA2SHyEfCVlqDIl36G1g" name="timelogimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_4iT6cCHKEfCkIo3EdN1ebA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA2iHyEfCVlqDIl36G1g" name="commentimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_9ADM4iHREfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA2yHyEfCVlqDIl36G1g" name="commentimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_ZvzV4iHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA3CHyEfCVlqDIl36G1g" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_ntYrECHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA3SHyEfCVlqDIl36G1g" name="timelogimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_y8BGsyHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA3iHyEfCVlqDIl36G1g" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_6qtQsiHSEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA3yHyEfCVlqDIl36G1g" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_I8dfFCHTEfCEXJqvmcK_5Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA4CHyEfCVlqDIl36G1g" name="analyticimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_JljQoiHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA4SHyEfCVlqDIl36G1g" name="analyticimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_PgzHEyHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA4iHyEfCVlqDIl36G1g" name="analyticimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_T-n9QiHZEfCW_tU7r-psAA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pdvA4yHyEfCVlqDIl36G1g" name="analyticimpl">
+      <structuralFeature xsi:type="uml:Property" href="../uml-dop-taskline.uml#_e9AWYiHZEfCW_tU7r-psAA"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>
