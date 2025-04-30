@@ -18,7 +18,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="analytic.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_4D_OoSHpEfCW_tU7r-psAA" name="burndown-by-project" repPath="#_4D-nkCHpEfCW_tU7r-psAA" changeId="1745599586410">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_4D_OoSHpEfCW_tU7r-psAA" name="burndown-by-project" repPath="#_4D-nkCHpEfCW_tU7r-psAA" changeId="1745599844720">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="model-module/burndownByProject.core#/"/>
       </ownedRepresentationDescriptors>
@@ -380,7 +380,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N5X3fyHzEfCW_tU7r-psAA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_N5X3eSHzEfCW_tU7r-psAA" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N5X3eiHzEfCW_tU7r-psAA" x="840" y="581" width="80" height="80"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N5X3eiHzEfCW_tU7r-psAA" x="1372" y="427" width="80" height="80"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_Ti9WICHzEfCW_tU7r-psAA" type="2001" element="_ThWMniHzEfCW_tU7r-psAA">
           <children xmi:type="notation:Node" xmi:id="_Ti9WIyHzEfCW_tU7r-psAA" type="5002">
@@ -391,7 +391,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ti9WJyHzEfCW_tU7r-psAA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Ti9WISHzEfCW_tU7r-psAA" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ti9WIiHzEfCW_tU7r-psAA" x="924" y="621" width="80" height="80"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ti9WIiHzEfCW_tU7r-psAA" x="1358" y="525" width="80" height="80"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_W5J17yHzEfCW_tU7r-psAA" type="2001" element="_W3fB-iHzEfCW_tU7r-psAA">
           <children xmi:type="notation:Node" xmi:id="_W5J18iHzEfCW_tU7r-psAA" type="5002">
@@ -402,7 +402,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W5Kc8iHzEfCW_tU7r-psAA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_W5J18CHzEfCW_tU7r-psAA" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W5J18SHzEfCW_tU7r-psAA" x="1008" y="661" width="80" height="80"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W5J18SHzEfCW_tU7r-psAA" x="1358" y="662" width="80" height="80"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_aAZ6vyHzEfCW_tU7r-psAA" type="2001" element="_Z-cy8iHzEfCW_tU7r-psAA">
           <children xmi:type="notation:Node" xmi:id="_aAZ6wiHzEfCW_tU7r-psAA" type="5002">
@@ -413,7 +413,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aAZ6xiHzEfCW_tU7r-psAA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_aAZ6wCHzEfCW_tU7r-psAA" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aAZ6wSHzEfCW_tU7r-psAA" x="1092" y="701" width="80" height="80"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aAZ6wSHzEfCW_tU7r-psAA" x="1372" y="931" width="80" height="80"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_d8umUiHzEfCW_tU7r-psAA" type="2001" element="_d6lRVCHzEfCW_tU7r-psAA">
           <children xmi:type="notation:Node" xmi:id="_d8umVSHzEfCW_tU7r-psAA" type="5002">
@@ -424,7 +424,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d8umWSHzEfCW_tU7r-psAA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_d8umUyHzEfCW_tU7r-psAA" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d8umVCHzEfCW_tU7r-psAA" x="1176" y="741" width="80" height="80"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d8umVCHzEfCW_tU7r-psAA" x="1351" y="315" width="80" height="80"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_gGehECHzEfCW_tU7r-psAA" type="2001" element="_gEgyQiHzEfCW_tU7r-psAA">
           <children xmi:type="notation:Node" xmi:id="_gGehEyHzEfCW_tU7r-psAA" type="5002">
@@ -785,6 +785,9 @@
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_N30YTCHzEfCW_tU7r-psAA" name="LineChart" width="8" height="8" resizeKind="NSEW">
       <target xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Note" uid="_N30YTSHzEfCW_tU7r-psAA" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
@@ -793,6 +796,9 @@
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_ThWMniHzEfCW_tU7r-psAA" name="isXAxis" width="8" height="8" resizeKind="NSEW">
       <target xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Note" uid="_ThWMnyHzEfCW_tU7r-psAA" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
@@ -801,6 +807,9 @@
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_W3fB-iHzEfCW_tU7r-psAA" name="isSource" width="8" height="8" resizeKind="NSEW">
       <target xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.1/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.1/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Note" uid="_W3fB-yHzEfCW_tU7r-psAA" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
@@ -817,6 +826,9 @@
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_Z-cy8iHzEfCW_tU7r-psAA" name="isXAxis" width="8" height="8" resizeKind="NSEW">
       <target xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewComponentParts.0/@subViewComponentParts.0/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewComponentParts.0/@subViewComponentParts.0/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Note" uid="_Z-dZ8CHzEfCW_tU7r-psAA" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
@@ -825,6 +837,9 @@
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_d6lRVCHzEfCW_tU7r-psAA" name="isSource" width="8" height="8" resizeKind="NSEW">
       <target xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewComponentParts.0/@subViewComponentParts.1/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="model-module/burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewComponentParts.0/@subViewComponentParts.1/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Note" uid="_d6lRVSHzEfCW_tU7r-psAA" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
