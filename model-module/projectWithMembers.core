@@ -55,15 +55,15 @@
         <viewElements xsi:type="dop-extension:ModifiedDetail" id="_0101sCZsEfCpHrP5kP8MPQ" name="Project Detail">
           <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_i7-p0CZtEfCpHrP5kP8MPQ" name="Edit">
             <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_Ty0yACZwEfCpHrP5kP8MPQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1">
-              <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0"/>
+              <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
             </outInteractionFlows>
-            <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1"/>
+            <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.0"/>
           </viewElementEvents>
           <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_X5uycCZvEfCpHrP5kP8MPQ" name="Delete">
             <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_NMIK0CZwEfCpHrP5kP8MPQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.2">
-              <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0"/>
+              <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0"/>
             </outInteractionFlows>
-            <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.2"/>
+            <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_MXJK8CZtEfCpHrP5kP8MPQ" name="Project Detail Data" uniformResourceIdentifier="call/projectwithmembers/detail">
             <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewComponentParts.0"/>
