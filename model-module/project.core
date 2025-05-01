@@ -42,7 +42,6 @@
         </viewElementEvents>
         <viewElements xsi:type="ext:Details" id="_0XENwCHlEfChD41pi9QTAQ" name="Project Detail">
           <parameters id="_-6yEICHlEfChD41pi9QTAQ" name="projectId" direction="inout"/>
-          <viewElementEvents id="_nmtEMCHmEfChD41pi9QTAQ" name="Go to Tasks"/>
           <viewElementEvents id="_skt2UCHmEfChD41pi9QTAQ" name="Edit">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_OHTfYCHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
               <parameterBindingGroup id="_zmzU0CHtEfChD41pi9QTAQ">
@@ -57,14 +56,16 @@
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_DHulsCHmEfChD41pi9QTAQ" name="Data Binding" uniformResourceIdentifier="call/project/detail">
+          <viewElementEvents id="_ETjLICZxEfCpHrP5kP8MPQ" name="View Tasks"/>
+          <viewElementEvents id="_OwjVgCZxEfCpHrP5kP8MPQ" name="View Burndown"/>
+          <viewComponentParts xsi:type="core:DataBinding" id="_DHulsCHmEfChD41pi9QTAQ" name="Project Detail Data" uniformResourceIdentifier="call/project/detail">
             <parameters id="_SqK_4CHmEfChD41pi9QTAQ" name="projectId" direction="inout"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_NYecwCHmEfChD41pi9QTAQ" name="Title" featureConcept="//@domainModel/@domainElements.6"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_VQPqQCHmEfChD41pi9QTAQ" name="Description" featureConcept="//@domainModel/@domainElements.12"/>
           </viewComponentParts>
         </viewElements>
-        <viewElements xsi:type="ext:IFMLWindow" id="_Cr8zMCHnEfChD41pi9QTAQ" name="Confirm Delete Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0" isModal="true">
-          <viewElementEvents id="_n1yzoCHnEfChD41pi9QTAQ" name="Confirm Delete">
+        <viewElements xsi:type="ext:IFMLWindow" id="_Cr8zMCHnEfChD41pi9QTAQ" name="Confirm Delete Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0" isModal="true">
+          <viewElementEvents id="_n1yzoCHnEfChD41pi9QTAQ" name="Delete Project">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_4yrOsCHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6">
               <parameterBindingGroup id="_cxsI0CHuEfChD41pi9QTAQ">
                 <parameterBindings id="_fFn6UCHuEfChD41pi9QTAQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
@@ -73,8 +74,8 @@
           </viewElementEvents>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_6BNbMCHnEfChD41pi9QTAQ" name="Edit Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
-        <annotations text="/projects/edit?projectId"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_6BNbMCHnEfChD41pi9QTAQ" name="Edit Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/projects/edit"/>
         <viewElementEvents id="_h1v1YCHqEfChD41pi9QTAQ" name="Back">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_A2BPgCHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
             <parameterBindingGroup id="_6gcGICHtEfChD41pi9QTAQ">
