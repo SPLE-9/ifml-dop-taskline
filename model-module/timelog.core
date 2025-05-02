@@ -2,8 +2,10 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_Se12cCHiEfCVlqDIl36G1g">
   <interactionFlowModel id="_ffb-8CHiEfCVlqDIl36G1g">
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_ffjTsCHiEfCVlqDIl36G1g" name="Timelog">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_kGjUACHiEfCVlqDIl36G1g" name="Timelog Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_kGjUACHiEfCVlqDIl36G1g" name="Timelog Page">
         <annotations text="/timelog"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.4/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="core:ViewContainer" id="_Wt-S4CHuEfCVlqDIl36G1g" name="Wrapper Tab">
           <annotations text="Tab"/>
           <viewElements xsi:type="core:ViewContainer" id="_eakLICHuEfCVlqDIl36G1g" name="All Timelog">

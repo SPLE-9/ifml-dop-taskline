@@ -4,6 +4,7 @@
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_amqw0CHwEfC5wJZdT1cTeg" name="Module Definition">
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_3CpwoCHtEfC5wJZdT1cTeg" name="Appointments Page">
         <annotations text="/appointments"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="ext:List" id="_GAC9ACHuEfC5wJZdT1cTeg" name="Appointments Table">
           <viewComponentParts xsi:type="core:DataBinding" id="_Lmm84CHuEfC5wJZdT1cTeg" name="Appointments List" uniformResourceIdentifier="call/appointment/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_P4a64CHvEfC5wJZdT1cTeg" name="startTime" featureConcept="//@domainModel/@domainElements.28"/>
