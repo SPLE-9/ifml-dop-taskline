@@ -99,7 +99,7 @@
             </subViewComponentParts>
             <subViewComponentParts xsi:type="ext:SimpleField" id="_ext5ICHpEfChD41pi9QTAQ" name="Project Description">
               <annotations text="Richtext"/>
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_gZNbYCHpEfChD41pi9QTAQ" name="Slot"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_gZNbYCHpEfChD41pi9QTAQ" name="description"/>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
