@@ -2,8 +2,12 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_iG3QACHpEfCEXJqvmcK_5Q">
   <interactionFlowModel id="_sTjGcCHpEfCEXJqvmcK_5Q">
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_sTmJwCHpEfCEXJqvmcK_5Q" name="Task">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_wtXmYCHpEfCEXJqvmcK_5Q" name="Table Task Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_wtXmYCHpEfCEXJqvmcK_5Q" name="Table Task Page">
         <annotations text="/task"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.6/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_xPhpgCHvEfCEXJqvmcK_5Q" name="Create Task">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_zUej0CHvEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>

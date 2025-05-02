@@ -44,6 +44,14 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_0VdHICdqEfCalNmtXmXVJQ" name="Task">
+      <annotations text="Task"/>
+      <viewElementEvents id="_bDWpYCdtEfCalNmtXmXVJQ" name="Task">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_e9Od8CdtEfCalNmtXmXVJQ">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_7d9poSdkEfCalNmtXmXVJQ">
     <domainElements xsi:type="core:UMLDomainConcept" id="_7eHaoCdkEfCalNmtXmXVJQ" name="UserImpl">
