@@ -2,7 +2,7 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_1yELICHwEfCW_tU7r-psAA">
   <interactionFlowModel id="_W3mBkCHxEfCW_tU7r-psAA">
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_W3n2wCHxEfCW_tU7r-psAA" name="BurndownByMember">
-      <annotations text="/burndown/:userId"/>
+      <annotations text="/analytic"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_g79CcCHxEfCW_tU7r-psAA" name="Burndown Chart by Member Page">
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="ext:List" id="_wY3cYCHxEfCW_tU7r-psAA" name="Planned Task Burndown Chart by Member">
