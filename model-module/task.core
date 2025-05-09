@@ -46,6 +46,7 @@
         <annotations text="/task/create"/>
         <viewElements xsi:type="ext:Form" id="_4fSYoCHrEfCEXJqvmcK_5Q" name="Create Task">
           <parameters id="_48f_8CzqEfCIoofEet4KZg" name="projectId">
+            <annotations text="projectId"/>
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </parameters>
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_IrpAkCHuEfCEXJqvmcK_5Q" name="Create">
