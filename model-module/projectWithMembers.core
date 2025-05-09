@@ -71,7 +71,7 @@
           <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0"/>
         </viewElements>
         <viewElements xsi:type="ext:IFMLWindow" id="_JpCwgCZuEfCpHrP5kP8MPQ" name="Confirm Delete Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.1/@viewElementEvents.1/@outInteractionFlows.0">
-          <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_OFQdICZuEfCpHrP5kP8MPQ" name="Delete Project">
+          <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_OFQdICZuEfCpHrP5kP8MPQ" name="Confirm Delete">
             <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_EJMxwCZwEfCpHrP5kP8MPQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6">
               <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
             </outInteractionFlows>
