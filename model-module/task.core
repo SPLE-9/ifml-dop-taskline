@@ -4,14 +4,14 @@
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_sTmJwCHpEfCEXJqvmcK_5Q" name="Task">
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_wtXmYCHpEfCEXJqvmcK_5Q" name="Table Task Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
         <annotations text="/task"/>
-        <viewElementEvents id="_xPhpgCHvEfCEXJqvmcK_5Q" name="Create">
+        <viewElementEvents id="_xPhpgCHvEfCEXJqvmcK_5Q" name="Buat Task">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_zUej0CHvEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_1qbWQCHpEfCEXJqvmcK_5Q" name="Table Task">
           <parameters id="_CZnCYCwhEfCG0sHSgQ2-ow" name="projectId" direction="inout">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </parameters>
-          <viewElementEvents id="_XkeOUCH0EfCEXJqvmcK_5Q" name="Delete">
+          <viewElementEvents id="_XkeOUCH0EfCEXJqvmcK_5Q" name="Hapus">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_dX7asCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5">
               <parameterBindingGroup id="_hKrHUCzbEfCG0sHSgQ2-ow">
                 <parameterBindings id="_2PHxgCzbEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
@@ -38,6 +38,9 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_wqNSwCHrEfCEXJqvmcK_5Q" name="Create Task Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/task/create"/>
         <viewElements xsi:type="ext:Form" id="_4fSYoCHrEfCEXJqvmcK_5Q" name="Create Task">
+          <parameters id="_48f_8CzqEfCIoofEet4KZg" name="projectId">
+            <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
+          </parameters>
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_IrpAkCHuEfCEXJqvmcK_5Q" name="Create">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_OFNGQCHuEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
               <parameterBindingGroup id="_4UHSoCzcEfCG0sHSgQ2-ow">
@@ -102,7 +105,11 @@
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_a3RjMCHxEfCEXJqvmcK_5Q" name="Update Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="PUT"/>
         <actionEvents id="_hdzLQCHxEfCEXJqvmcK_5Q">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_joEDYCHxEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_joEDYCHxEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6">
+            <parameterBindingGroup id="_h_obkCzqEfCIoofEet4KZg">
+              <parameterBindings id="_jltokCzqEfCIoofEet4KZg" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
+            </parameterBindingGroup>
+          </outInteractionFlows>
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_cEtfUCH0EfCEXJqvmcK_5Q" name="Delete Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
