@@ -8,17 +8,28 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_zUej0CHvEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_1qbWQCHpEfCEXJqvmcK_5Q" name="Table Task">
+          <parameters id="_CZnCYCwhEfCG0sHSgQ2-ow" name="projectId" direction="inout">
+            <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
+          </parameters>
           <viewElementEvents id="_XkeOUCH0EfCEXJqvmcK_5Q" name="Delete">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_dX7asCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_dX7asCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5">
+              <parameterBindingGroup id="_hKrHUCzbEfCG0sHSgQ2-ow">
+                <parameterBindings id="_2PHxgCzbEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
           </viewElementEvents>
           <viewElementEvents id="_6wx1gCdOEfCHbe1wpsqx6g" name="Detail">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_9ORLoCdOEfCHbe1wpsqx6g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_9ORLoCdOEfCHbe1wpsqx6g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6">
+              <parameterBindingGroup id="__nhO0CzcEfCG0sHSgQ2-ow">
+                <parameterBindings id="_AowCUCzdEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_3spFoCHpEfCEXJqvmcK_5Q" name="List Task" uniformResourceIdentifier="call/task/list">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_W6__ECHqEfCEXJqvmcK_5Q" name="Task Title">
+          <viewComponentParts xsi:type="core:DataBinding" id="_3spFoCHpEfCEXJqvmcK_5Q" name="List Task" uniformResourceIdentifier="call/project-task/list">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_W6__ECHqEfCEXJqvmcK_5Q" name="Title">
               <featureConcept href="project.core#//@domainModel/@domainElements.20"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_626z0CHqEfCEXJqvmcK_5Q" name="Task Description">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_626z0CHqEfCEXJqvmcK_5Q" name="Description">
               <featureConcept href="timelog.core#//@domainModel/@domainElements.12"/>
             </subViewComponentParts>
           </viewComponentParts>
@@ -28,18 +39,25 @@
         <annotations text="/task/create"/>
         <viewElements xsi:type="ext:Form" id="_4fSYoCHrEfCEXJqvmcK_5Q" name="Create Task">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_IrpAkCHuEfCEXJqvmcK_5Q" name="Create">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_OFNGQCHuEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_OFNGQCHuEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
+              <parameterBindingGroup id="_4UHSoCzcEfCG0sHSgQ2-ow">
+                <parameterBindings id="_6NFmcCzcEfCG0sHSgQ2-ow">
+                  <sourceParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
+                  <targetParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@parameters.0"/>
+                </parameterBindings>
+              </parameterBindingGroup>
+            </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_RnpkMCHsEfCEXJqvmcK_5Q" name="Task Title">
+          <viewComponentParts xsi:type="ext:SimpleField" id="_RnpkMCHsEfCEXJqvmcK_5Q" name="Title">
             <annotations text="required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_E8C-0CHtEfCEXJqvmcK_5Q" name="Slot">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_E8C-0CHtEfCEXJqvmcK_5Q" name="title">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_TMUb8CHsEfCEXJqvmcK_5Q" name="Task Description">
+          <viewComponentParts xsi:type="ext:SimpleField" id="_TMUb8CHsEfCEXJqvmcK_5Q" name="Description">
             <annotations text="required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Jf918CHtEfCEXJqvmcK_5Q" name="Slot">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Jf918CHtEfCEXJqvmcK_5Q" name="description">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -55,21 +73,25 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_s2cwcCHvEfCEXJqvmcK_5Q" name="Edit Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/task/edit"/>
         <viewElements xsi:type="ext:Form" id="_CPZD8CHwEfCEXJqvmcK_5Q" name="Edit Task">
-          <parameters id="_F48kkCHwEfCEXJqvmcK_5Q" name="taskId">
+          <parameters id="_F48kkCHwEfCEXJqvmcK_5Q" name="taskId" direction="inout">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </parameters>
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_7QwBYCHwEfCEXJqvmcK_5Q" name="Edit">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_gTuk0CHxEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_gTuk0CHxEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4">
+              <parameterBindingGroup id="_WpxpgCzdEfCG0sHSgQ2-ow">
+                <parameterBindings id="_YPHPoCzdEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_OzxxkCHwEfCEXJqvmcK_5Q" name="Edit Task Data" uniformResourceIdentifier="call/task/detail">
-            <subViewComponentParts xsi:type="ext:SimpleField" id="_SuJ8cCHwEfCEXJqvmcK_5Q" name="Task Title">
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_WmdqwCHwEfCEXJqvmcK_5Q" name="Slot">
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_SuJ8cCHwEfCEXJqvmcK_5Q" name="Title">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_WmdqwCHwEfCEXJqvmcK_5Q" name="title">
                 <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </subViewComponentParts>
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="ext:SimpleField" id="_TXU1QCHwEfCEXJqvmcK_5Q" name="Task Description">
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_jgKhECHwEfCEXJqvmcK_5Q" name="Slot">
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_TXU1QCHwEfCEXJqvmcK_5Q" name="Description">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_jgKhECHwEfCEXJqvmcK_5Q" name="description">
                 <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </subViewComponentParts>
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -92,20 +114,24 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_6laokCH0EfCEXJqvmcK_5Q" name="Detail Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0">
         <annotations text="/task/:taskId"/>
         <viewElements xsi:type="ext:Details" id="_9SO0ICH0EfCEXJqvmcK_5Q" name="Task Detail">
-          <parameters id="_LAX_ICH1EfCEXJqvmcK_5Q" name="taskId">
+          <parameters id="_LAX_ICH1EfCEXJqvmcK_5Q" name="taskId" direction="inout">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </parameters>
           <viewElementEvents id="_iw7UsCdPEfCHbe1wpsqx6g" name="Edit">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_m7f3sCdPEfCHbe1wpsqx6g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_m7f3sCdPEfCHbe1wpsqx6g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+              <parameterBindingGroup id="_OVEoYCzdEfCG0sHSgQ2-ow">
+                <parameterBindings id="_PyS0UCzdEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_DrAUECH1EfCEXJqvmcK_5Q" name="Task Detail Data" uniformResourceIdentifier="call/task/detail">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_VzqikCH1EfCEXJqvmcK_5Q" name="Task Title">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_VzqikCH1EfCEXJqvmcK_5Q" name="Title">
               <featureConcept href="appointment.core#//@domainModel/@domainElements.59"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_XFldcCH1EfCEXJqvmcK_5Q" name="Task Description">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_XFldcCH1EfCEXJqvmcK_5Q" name="Description">
               <featureConcept href="appointment.core#//@domainModel/@domainElements.60"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_ZCE_UCH1EfCEXJqvmcK_5Q" name="Task Status">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_ZCE_UCH1EfCEXJqvmcK_5Q" name="Status">
               <featureConcept href="timelogDuration.core#//@domainModel/@domainElements.61"/>
             </subViewComponentParts>
           </viewComponentParts>
