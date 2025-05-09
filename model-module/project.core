@@ -70,7 +70,7 @@
           </viewComponentParts>
         </viewElements>
         <viewElements xsi:type="ext:IFMLWindow" id="_Cr8zMCHnEfChD41pi9QTAQ" name="Confirm Delete Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0" isModal="true">
-          <viewElementEvents id="_n1yzoCHnEfChD41pi9QTAQ" name="Delete Project">
+          <viewElementEvents id="_n1yzoCHnEfChD41pi9QTAQ" name="Confirm Delete">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_4yrOsCHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6">
               <parameterBindingGroup id="_cxsI0CHuEfChD41pi9QTAQ">
                 <parameterBindings id="_fFn6UCHuEfChD41pi9QTAQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
