@@ -5,7 +5,14 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_wtXmYCHpEfCEXJqvmcK_5Q" name="Table Task Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
         <annotations text="/task"/>
         <viewElementEvents id="_xPhpgCHvEfCEXJqvmcK_5Q" name="Buat Task">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_zUej0CHvEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_zUej0CHvEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1">
+            <parameterBindingGroup id="_SIltkCzuEfCIoofEet4KZg">
+              <parameterBindings id="_T0q04CzuEfCIoofEet4KZg">
+                <sourceParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
+                <targetParameter href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
+              </parameterBindings>
+            </parameterBindingGroup>
+          </outInteractionFlows>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_1qbWQCHpEfCEXJqvmcK_5Q" name="Table Task">
           <parameters id="_CZnCYCwhEfCG0sHSgQ2-ow" name="projectId" direction="inout">
