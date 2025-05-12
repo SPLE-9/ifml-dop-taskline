@@ -33,11 +33,11 @@
             </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_3spFoCHpEfCEXJqvmcK_5Q" name="List Task" uniformResourceIdentifier="call/project-task/list">
+            <parameters id="_EHUkgC9aEfCoi-5oe8LSFw" name="taskId">
+              <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
+            </parameters>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_W6__ECHqEfCEXJqvmcK_5Q" name="Title">
               <featureConcept href="project.core#//@domainModel/@domainElements.20"/>
-            </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_626z0CHqEfCEXJqvmcK_5Q" name="Description">
-              <featureConcept href="timelog.core#//@domainModel/@domainElements.12"/>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
