@@ -32,7 +32,11 @@
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_4RsFsCHkEfChD41pi9QTAQ" name="Table Projects">
           <viewElementEvents id="_dV4xICHlEfChD41pi9QTAQ" name="Detail">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_Fc1poCHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_Fc1poCHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
+              <parameterBindingGroup id="_M5AC4DGGEfCWsPjTtenvXw">
+                <parameterBindings id="_QmV3UDGGEfCWsPjTtenvXw" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_Au_CICHlEfChD41pi9QTAQ" name="Project List Data" uniformResourceIdentifier="call/project/list">
             <parameters id="_JJTjECHlEfChD41pi9QTAQ" name="projectId" direction="inout"/>
@@ -62,7 +66,6 @@
             </outInteractionFlows>
           </viewElementEvents>
           <viewElementEvents id="_ETjLICZxEfCpHrP5kP8MPQ" name="View Tasks"/>
-          <viewElementEvents id="_OwjVgCZxEfCpHrP5kP8MPQ" name="View Burndown"/>
           <viewComponentParts xsi:type="core:DataBinding" id="_DHulsCHmEfChD41pi9QTAQ" name="Project Detail Data" uniformResourceIdentifier="call/project/detail">
             <parameters id="_SqK_4CHmEfChD41pi9QTAQ" name="projectId" direction="inout"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_NYecwCHmEfChD41pi9QTAQ" name="Title" featureConcept="//@domainModel/@domainElements.6"/>
@@ -111,7 +114,7 @@
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_jcLyQCHrEfChD41pi9QTAQ" name="Update Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="POST"/>
+        <annotations text="PUT"/>
         <actionEvents id="_oRFrsCHrEfChD41pi9QTAQ">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_tWRc0CHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
             <parameterBindingGroup id="_K5hwQCH1EfChD41pi9QTAQ">
@@ -121,7 +124,7 @@
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_wJPTsCHrEfChD41pi9QTAQ" name="Delete Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="POST"/>
+        <annotations text="DELETE"/>
         <actionEvents id="_3c-AACHrEfChD41pi9QTAQ">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_77k5UCHrEfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </actionEvents>

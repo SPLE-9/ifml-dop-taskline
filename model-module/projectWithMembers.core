@@ -11,9 +11,9 @@
               <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0"/>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_YjcU0CHwEfChD41pi9QTAQ" name="User List Data" uniformResourceIdentifier="call/user/list">
-            <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_aF_FoCHwEfChD41pi9QTAQ" name="Project Members">
-              <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_cW70kCHwEfChD41pi9QTAQ" name="userId" direction="out"/>
+          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_YjcU0CHwEfChD41pi9QTAQ" name="Member List Data" uniformResourceIdentifier="call/member/list">
+            <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_aF_FoCHwEfChD41pi9QTAQ" name="Project Members" isMultiSelection="true">
+              <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_cW70kCHwEfChD41pi9QTAQ" name="memberId" direction="out"/>
               <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_c9uu0CHwEfChD41pi9QTAQ" name="name"/>
             </subViewComponentParts>
           </viewComponentParts>
@@ -23,7 +23,7 @@
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_VJs8YCHxEfChD41pi9QTAQ" name="Edit Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/projects/edit"/>
-        <viewElements xsi:type="dop-extension:ModifiedForm" id="_ciu_cCHxEfChD41pi9QTAQ" name="Modified Form">
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_ciu_cCHxEfChD41pi9QTAQ" name="Edit Project Form">
           <parameters id="_XuYNsCHzEfChD41pi9QTAQ" name="projectId" direction="inout"/>
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_UovH4CHyEfChD41pi9QTAQ" name="Edit Project">
             <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_IVEE4CH0EfChD41pi9QTAQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5">
@@ -31,9 +31,9 @@
             </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_XhwmECZpEfCpHrP5kP8MPQ" name="Edit Project Data" uniformResourceIdentifier="call/projectwithmembers/detail">
-            <subViewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_sfztUCZpEfCpHrP5kP8MPQ" name="User List Data" uniformResourceIdentifier="call/user/list">
+            <subViewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_sfztUCZpEfCpHrP5kP8MPQ" name="Member List Data" uniformResourceIdentifier="call/member/list">
               <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_4xF4wCZpEfCpHrP5kP8MPQ" name="Members" isMultiSelection="true">
-                <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_HaXPQCZqEfCpHrP5kP8MPQ" name="userId" direction="out"/>
+                <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_HaXPQCZqEfCpHrP5kP8MPQ" name="memberId" direction="out"/>
                 <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_OAhD4CZqEfCpHrP5kP8MPQ" name="name"/>
               </subViewComponentParts>
             </subViewComponentParts>
