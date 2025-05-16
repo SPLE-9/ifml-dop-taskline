@@ -3,8 +3,11 @@
   <interactionFlowModel id="_u28BgCHvEfChD41pi9QTAQ">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_u2_r4CHvEfChD41pi9QTAQ" name="ProjectWithMembers">
       <annotations text="AddedFeature"/>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_lCZd8CHyEfChD41pi9QTAQ" name="Project Detail Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_lCZd8CHyEfChD41pi9QTAQ" name="Project Detail Page">
         <annotations text="/projects/:projectId"/>
+        <inInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_vf7-cDJGEfCBKLsveFPh7w" name="Add Project Member">
           <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_16kfkDJGEfCBKLsveFPh7w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1">
             <parameterBindingGroup id="_knzh0DJHEfCBKLsveFPh7w">
