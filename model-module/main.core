@@ -36,9 +36,9 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_eXt2wCdlEfCalNmtXmXVJQ" name="Analytic">
-      <annotations text="Analytic"/>
-      <viewElementEvents id="_3h2HcCdmEfCalNmtXmXVJQ" name="Analytic">
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_eXt2wCdlEfCalNmtXmXVJQ" name="MemberBurndown">
+      <annotations text="Member Burndown"/>
+      <viewElementEvents id="_3h2HcCdmEfCalNmtXmXVJQ" name="MemberBurndown">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_7RCWACdmEfCalNmtXmXVJQ">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="burndownByMember.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>

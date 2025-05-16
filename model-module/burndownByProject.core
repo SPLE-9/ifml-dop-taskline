@@ -2,26 +2,26 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_0uf5gCHpEfCW_tU7r-psAA">
   <interactionFlowModel id="_7tE1MCHpEfCW_tU7r-psAA">
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_7tGqYCHpEfCW_tU7r-psAA" name="BurndownByProject">
-      <annotations text="/burndown/:projectId"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_B5c34CHqEfCW_tU7r-psAA" name="Burndown Chart by Project Page">
+        <annotations text="/projectburndown/:projectId"/>
         <viewElements xsi:type="ext:List" id="_KX2AgCHqEfCW_tU7r-psAA" name="Planned Task Burndown Chart by Project">
           <annotations text="LineChart"/>
+          <parameters id="_NDoHADJhEfCbooCqr6154Q" name="projectId" direction="inout"/>
           <viewComponentParts xsi:type="core:DataBinding" id="_RI9H8CHqEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbyproject/detail">
-            <parameters id="_gl6BUCHuEfCW_tU7r-psAA" name="projectId"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_8yNb0CHqEfCW_tU7r-psAA" name="Date">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Nlw8ADJnEfCbooCqr6154Q" name="Date">
               <annotations text="isXAxis"/>
-              <featureConcept href="../analytic.core#//@domainModel/@domainElements.77"/>
+              <featureConcept href="projectWithMembers.core#//@domainModel/@domainElements.77"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_OfaA4CHsEfCW_tU7r-psAA" name="Total Tasks">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_2uaUUDJnEfCbooCqr6154Q" name="Total Tasks">
               <annotations text="isSource"/>
-              <featureConcept href="../analytic.core#//@domainModel/@domainElements.79"/>
+              <featureConcept href="projectWithMembers.core#//@domainModel/@domainElements.79"/>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
         <viewElements xsi:type="ext:List" id="_PgcxsCHtEfCW_tU7r-psAA" name="Actual Task Burndown Chart by Project">
           <annotations text="LineChart"/>
+          <parameters id="_QLt1IDJoEfCbooCqr6154Q" name="projectId" direction="inout"/>
           <viewComponentParts xsi:type="core:DataBinding" id="_GVnkYCHuEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbyproject/detail">
-            <parameters id="_2IkRgCHuEfCW_tU7r-psAA" name="projectId"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_XaJm8CHvEfCW_tU7r-psAA" name="Date" featureConcept="//@domainModel/@domainElements.77">
               <annotations text="isXAxis"/>
             </subViewComponentParts>
