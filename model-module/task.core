@@ -8,7 +8,7 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_zUej0CHvEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1">
             <parameterBindingGroup id="_SIltkCzuEfCIoofEet4KZg">
               <parameterBindings id="_T0q04CzuEfCIoofEet4KZg">
-                <sourceParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
+                <sourceParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
                 <targetParameter href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
               </parameterBindings>
             </parameterBindingGroup>
@@ -53,8 +53,7 @@
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_OFNGQCHuEfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
               <parameterBindingGroup id="_4UHSoCzcEfCG0sHSgQ2-ow">
                 <parameterBindings id="_6NFmcCzcEfCG0sHSgQ2-ow">
-                  <sourceParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@parameters.0"/>
-                  <targetParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@parameters.0"/>
+                  <sourceParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
                 </parameterBindings>
               </parameterBindingGroup>
             </outInteractionFlows>
