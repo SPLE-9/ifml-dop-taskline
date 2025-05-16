@@ -7,7 +7,7 @@
         <viewElements xsi:type="ext:List" id="_KX2AgCHqEfCW_tU7r-psAA" name="Planned Task Burndown Chart by Project">
           <annotations text="LineChart"/>
           <parameters id="_NDoHADJhEfCbooCqr6154Q" name="projectId" direction="inout"/>
-          <viewComponentParts xsi:type="core:DataBinding" id="_RI9H8CHqEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbyproject/detail">
+          <viewComponentParts xsi:type="core:DataBinding" id="_RI9H8CHqEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbyproject/planned">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Nlw8ADJnEfCbooCqr6154Q" name="Date">
               <annotations text="isXAxis"/>
               <featureConcept href="projectWithMembers.core#//@domainModel/@domainElements.77"/>
@@ -21,7 +21,7 @@
         <viewElements xsi:type="ext:List" id="_PgcxsCHtEfCW_tU7r-psAA" name="Actual Task Burndown Chart by Project">
           <annotations text="LineChart"/>
           <parameters id="_QLt1IDJoEfCbooCqr6154Q" name="projectId" direction="inout"/>
-          <viewComponentParts xsi:type="core:DataBinding" id="_GVnkYCHuEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbyproject/detail">
+          <viewComponentParts xsi:type="core:DataBinding" id="_GVnkYCHuEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbyproject/actual">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_XaJm8CHvEfCW_tU7r-psAA" name="Date" featureConcept="//@domainModel/@domainElements.77">
               <annotations text="isXAxis"/>
             </subViewComponentParts>

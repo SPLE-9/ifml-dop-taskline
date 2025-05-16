@@ -3,11 +3,10 @@
   <interactionFlowModel id="_W3mBkCHxEfCW_tU7r-psAA">
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_W3n2wCHxEfCW_tU7r-psAA" name="BurndownByMember">
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_g79CcCHxEfCW_tU7r-psAA" name="Burndown Chart by Member Page">
-        <annotations text="/memberburndown/:userId"/>
+        <annotations text="/memberburndown"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="ext:List" id="_wY3cYCHxEfCW_tU7r-psAA" name="Planned Task Burndown Chart by Member">
           <annotations text="LineChart"/>
-          <parameters id="_3SOmUDJXEfCbooCqr6154Q" name="userId" direction="inout"/>
           <viewComponentParts xsi:type="core:DataBinding" id="_1Wz9ECHxEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbymember/planned">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Ca5ecCHyEfCW_tU7r-psAA" name="Date">
               <annotations text="isXAxis"/>
@@ -21,8 +20,7 @@
         </viewElements>
         <viewElements xsi:type="ext:List" id="_v3wd8CHyEfCW_tU7r-psAA" name="Actual Task Burndown Chart by Member">
           <annotations text="LineChart"/>
-          <parameters id="_wBNPwDJXEfCbooCqr6154Q" name="userId" direction="inout"/>
-          <viewComponentParts xsi:type="core:DataBinding" id="_2DaH4CHyEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbyproject/actual">
+          <viewComponentParts xsi:type="core:DataBinding" id="_2DaH4CHyEfCW_tU7r-psAA" name="Data Binding" uniformResourceIdentifier="call/burndownbymember/actual">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_6Y1QACHyEfCW_tU7r-psAA" name="Date">
               <annotations text="isXAxis"/>
               <featureConcept href="burndownByProject.core#//@domainModel/@domainElements.77"/>
