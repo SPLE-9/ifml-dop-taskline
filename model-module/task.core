@@ -54,6 +54,7 @@
               <parameterBindingGroup id="_4UHSoCzcEfCG0sHSgQ2-ow">
                 <parameterBindings id="_6NFmcCzcEfCG0sHSgQ2-ow">
                   <sourceParameter href="projectWithMembers.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
+                  <targetParameter href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
                 </parameterBindings>
               </parameterBindingGroup>
             </outInteractionFlows>
