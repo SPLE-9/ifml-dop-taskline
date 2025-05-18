@@ -11,7 +11,7 @@
           <viewElements xsi:type="core:ViewContainer" id="_eakLICHuEfCVlqDIl36G1g" name="All Timelog">
             <annotations text="/timelog?tab=all"/>
             <viewElements xsi:type="ext:List" id="_1f-ngCHuEfCVlqDIl36G1g" name="Table All Timelog">
-              <viewComponentParts xsi:type="core:DataBinding" id="_JSfvwCHvEfCVlqDIl36G1g" name="Table All TImelog">
+              <viewComponentParts xsi:type="core:DataBinding" id="_JSfvwCHvEfCVlqDIl36G1g" name="Table All TImelog" uniformResourceIdentifier="call/timelog/list/all">
                 <parameters id="_RjR6MCHvEfCVlqDIl36G1g" name="timelogId"/>
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_dExAYCHvEfCVlqDIl36G1g" name="Date" featureConcept="//@domainModel/@domainElements.39"/>
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_38ROUCHvEfCVlqDIl36G1g" name="Task Title" featureConcept="//@domainModel/@domainElements.6"/>
@@ -29,7 +29,7 @@
               <viewElementEvents id="_kRlW8CHwEfCVlqDIl36G1g" name="Edit Timelog">
                 <outInteractionFlows xsi:type="core:NavigationFlow" id="_m7YqwCHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
               </viewElementEvents>
-              <viewComponentParts xsi:type="core:DataBinding" id="_J4jqMCHvEfCVlqDIl36G1g" name="Table My Timelog">
+              <viewComponentParts xsi:type="core:DataBinding" id="_J4jqMCHvEfCVlqDIl36G1g" name="Table My Timelog" uniformResourceIdentifier="call/timelog/list/me">
                 <parameters id="_ZNkFUCHvEfCVlqDIl36G1g" name="timelogId" direction="inout"/>
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_xdOuUCHvEfCVlqDIl36G1g" name="Date" featureConcept="//@domainModel/@domainElements.39"/>
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_LKWMwCHwEfCVlqDIl36G1g" name="Task Title" featureConcept="//@domainModel/@domainElements.6"/>
@@ -73,7 +73,7 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_kzbAECHtEfCVlqDIl36G1g" name="Save">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_xB9SICHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_auu58CHrEfCVlqDIl36G1g" name="Edit Timelog Data">
+          <viewComponentParts xsi:type="core:DataBinding" id="_auu58CHrEfCVlqDIl36G1g" name="Edit Timelog Data" uniformResourceIdentifier="call/project/detail">
             <subViewComponentParts xsi:type="ext:SimpleField" id="_8fthICHrEfCVlqDIl36G1g" name="Note">
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_AgP-YCHsEfCVlqDIl36G1g" name="timelogNote"/>
             </subViewComponentParts>
