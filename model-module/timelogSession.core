@@ -4,9 +4,6 @@
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_GWj0ACH4EfCVlqDIl36G1g" name="TimelogSession">
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_P4v78CH4EfCVlqDIl36G1g" name="Add Timelog Page">
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_gCauMCH4EfCVlqDIl36G1g" name="Form Add Timelog">
-          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_1QICECH4EfCVlqDIl36G1g" name="Start Time">
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_AWst4CH5EfCVlqDIl36G1g" name="startTime"/>
-          </viewComponentParts>
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_MazY8CH5EfCVlqDIl36G1g" name="endTime">
             <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_TgDkYCH5EfCVlqDIl36G1g" name="endTime"/>
           </viewComponentParts>
@@ -16,9 +13,6 @@
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_Z3Z9cCH4EfCVlqDIl36G1g" name="Edit Timelog Page">
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_jUos4CH4EfCVlqDIl36G1g" name="Form Edit Timelog">
-          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_54WKYCH4EfCVlqDIl36G1g" name="Start Time">
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_DNPdMCH5EfCVlqDIl36G1g" name="startTime"/>
-          </viewComponentParts>
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_QFHHgCH5EfCVlqDIl36G1g" name="endTime">
             <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_V0aMoCH5EfCVlqDIl36G1g" name="endTime"/>
           </viewComponentParts>
