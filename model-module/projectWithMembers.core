@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_Ua0IACHvEfChD41pi9QTAQ">
   <interactionFlowModel id="_u28BgCHvEfChD41pi9QTAQ">
-    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_u2_r4CHvEfChD41pi9QTAQ" name="ProjectWithMembers">
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_u2_r4CHvEfChD41pi9QTAQ" name="Delta">
       <annotations text="AddedFeature"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_lCZd8CHyEfChD41pi9QTAQ" name="Project Detail Page">
         <annotations text="/projects/:projectId"/>

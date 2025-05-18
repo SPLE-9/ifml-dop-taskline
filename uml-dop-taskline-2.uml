@@ -197,7 +197,7 @@
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_aq7zUCHQEfCEXJqvmcK_5Q" name="DONE"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_UkEGQCHREfCEXJqvmcK_5Q" name="DTaskWIthComment">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UkEGQCHREfCEXJqvmcK_5Q" name="DTaskWithComment">
         <packagedElement xmi:type="uml:Class" xmi:id="_Y8CMECHREfCEXJqvmcK_5Q" name="TaskImpl">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_ntVAsCHSEfCEXJqvmcK_5Q" name="taskimpl" type="_oRmSwCHPEfCEXJqvmcK_5Q" association="_ntTykCHSEfCEXJqvmcK_5Q">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ntVnwCHSEfCEXJqvmcK_5Q"/>
