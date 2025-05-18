@@ -10,17 +10,23 @@
           </viewElementEvents>
           <viewComponentParts xsi:type="ext:SimpleField" id="_wTQHICHyEfCIVsohXMcELw" name="Notes ID">
             <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_jA2ngCHzEfCIVsohXMcELw" name="notes_id"/>
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_jA2ngCHzEfCIVsohXMcELw" name="notes_id">
+              <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
+            </subViewComponentParts>
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_xJNewCHyEfCIVsohXMcELw" name="Notes Title">
             <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_iEDoECHzEfCIVsohXMcELw" name="notes_title"/>
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_iEDoECHzEfCIVsohXMcELw" name="notes_title">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_LlTjECHzEfCIVsohXMcELw" name="Notes">
             <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_jfUFICHzEfCIVsohXMcELw" name="notes"/>
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_jfUFICHzEfCIVsohXMcELw" name="notes">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
         </viewElements>
@@ -30,13 +36,17 @@
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.3/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.1/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_8SbkACH0EfCIVsohXMcELw" name="Add Notes">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="__TmO8CH0EfCIVsohXMcELw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </viewElementEvents>
-        <viewElementEvents id="_b3280CH5EfCIVsohXMcELw" name="Edit Notes">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_puofYCH5EfCIVsohXMcELw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
-        </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_sesiUCHwEfCIVsohXMcELw" name="Notes List">
+          <viewElementEvents id="_F82JEDP3EfCgduOrRmg2fg" name="Delete Notes">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_OFlx0DP3EfCgduOrRmg2fg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.1"/>
+          </viewElementEvents>
+          <viewElementEvents id="_t4WjYDP4EfCgduOrRmg2fg" name="Detail">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_v-qvoDP4EfCgduOrRmg2fg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5"/>
+          </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_0XEz0CHwEfCIVsohXMcELw" name="Notes" uniformResourceIdentifier="call/notes/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WgDEQCHxEfCIVsohXMcELw" name="Notes ID" featureConcept="//@domainModel/@domainElements.19"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WgDEQCHxEfCIVsohXMcELw" name="Visualization Attribute" featureConcept="//@domainModel/@domainElements.19"/>
@@ -51,8 +61,8 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_4KYJgCH0EfCIVsohXMcELw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </actionEvents>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_XeKqoCH3EfCIVsohXMcELw" name="Edit Notes Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElementEvents.1/@outInteractionFlows.0">
-        <annotations text="/notes/edit?notesId"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_XeKqoCH3EfCIVsohXMcELw" name="Edit Notes Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/notes/edit"/>
         <viewElements xsi:type="ext:Form" id="_eb4qsCH3EfCIVsohXMcELw" name="Edit Notes Form">
           <parameters id="_hwICoCH3EfCIVsohXMcELw" name="notesId">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
@@ -78,6 +88,31 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_VhPZACH5EfCIVsohXMcELw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </actionEvents>
       </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_avbnMDP3EfCgduOrRmg2fg" name="Detail Notes Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
+        <annotations text="/notes/notesId"/>
+        <viewElements xsi:type="ext:Details" id="_pmHHkDP3EfCgduOrRmg2fg" name="Detail Notes">
+          <parameters id="_LAX_ICH1EfCEXJqvmcK_5Q" name="notesId" direction="inout">
+            <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
+          </parameters>
+          <viewElementEvents id="_c1BlQDP4EfCgduOrRmg2fg" name="Edit Notes">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_hO8L0DP4EfCgduOrRmg2fg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="core:DataBinding" id="_DrAUECH1EfCEXJqvmcK_5Q" name="Notes Detail Data" uniformResourceIdentifier="call/task/detail">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_VzqikCH1EfCEXJqvmcK_5Q" name="Title">
+              <featureConcept href="appointment.core#//@domainModel/@domainElements.59"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_XFldcCH1EfCEXJqvmcK_5Q" name="Notes">
+              <featureConcept href="appointment.core#//@domainModel/@domainElements.60"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" id="_KOPFwDP3EfCgduOrRmg2fg" name="Detele Notes" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <annotations text="DELETE"/>
+      <actionEvents id="_Ri170DP3EfCgduOrRmg2fg">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_VQ1QgDP3EfCgduOrRmg2fg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+      </actionEvents>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_05ZQACHrEfCSMJFNpQHI_A">
