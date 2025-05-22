@@ -60,6 +60,14 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_wgUOcDcJEfCCfr3A_Y6USg" name="ProjectWithBurndown">
+      <annotations text="ProjectWithBurndown"/>
+      <viewElementEvents id="_1BcQQDcJEfCCfr3A_Y6USg" name="ProjectWithBurndown">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_RD2LEDcKEfCCfr3A_Y6USg">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="projectWithBurndown.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_7d9poSdkEfCalNmtXmXVJQ">
     <domainElements xsi:type="core:UMLDomainConcept" id="_7eHaoCdkEfCalNmtXmXVJQ" name="UserImpl">
