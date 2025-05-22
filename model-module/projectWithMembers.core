@@ -20,11 +20,12 @@
           <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_snY2QDJBEfCBKLsveFPh7w" name="Remove">
             <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_hIqzYDJFEfCBKLsveFPh7w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1">
               <parameterBindingGroup id="_zcWewDJIEfCBKLsveFPh7w">
-                <parameterBindings id="_4hGyEDJIEfCBKLsveFPh7w" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
+                <parameterBindings id="_4hGyEDJIEfCBKLsveFPh7w" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_xSv1QCHyEfChD41pi9QTAQ" name="Project Member List Data" uniformResourceIdentifier="call/projectwithmembers/projectmemberlist">
+            <parameters id="_hEfBUDcDEfCCfr3A_Y6USg" name="projectMemberId" direction="inout"/>
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_3lNR0CHyEfChD41pi9QTAQ" name="Name" featureConcept="//@domainModel/@domainElements.3"/>
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_5PhekCHyEfChD41pi9QTAQ" name="Email" featureConcept="//@domainModel/@domainElements.2"/>
           </viewComponentParts>
@@ -36,7 +37,7 @@
             </outInteractionFlows>
             <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_WpEoADJFEfCBKLsveFPh7w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
               <parameterBindingGroup id="_aB4aEDJJEfCBKLsveFPh7w">
-                <parameterBindings id="_d1Fl8DJJEfCBKLsveFPh7w" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
+                <parameterBindings id="_d1Fl8DJJEfCBKLsveFPh7w" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
               </parameterBindingGroup>
             </outInteractionFlows>
             <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@viewElements.1/@viewElementEvents.0"/>
@@ -55,7 +56,7 @@
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_uTnSEDJCEfCBKLsveFPh7w" name="Member List Data" uniformResourceIdentifier="call/user/list">
+          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_uTnSEDJCEfCBKLsveFPh7w" name="Member List Data" uniformResourceIdentifier="call/member/list">
             <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_23TxcDJCEfCBKLsveFPh7w" name="Member">
               <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_FnGmsDJDEfCBKLsveFPh7w" name="memberId" direction="out"/>
               <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_M9PGwDJDEfCBKLsveFPh7w" name="name"/>
@@ -78,7 +79,7 @@
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_H7DUYDJFEfCBKLsveFPh7w" name="AddedActionEvent">
           <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_jCZ8MDJFEfCBKLsveFPh7w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0">
             <parameterBindingGroup id="_N24c0DJJEfCBKLsveFPh7w">
-              <parameterBindings id="_R2FdUDJJEfCBKLsveFPh7w" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
+              <parameterBindings id="_R2FdUDJJEfCBKLsveFPh7w" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
             </parameterBindingGroup>
           </outInteractionFlows>
         </actionEvents>
