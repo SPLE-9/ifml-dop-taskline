@@ -3,6 +3,7 @@
   <interactionFlowModel id="_GWgJoCH4EfCVlqDIl36G1g">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_GWj0ACH4EfCVlqDIl36G1g" name="TimelogSession">
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_P4v78CH4EfCVlqDIl36G1g" name="Add Timelog Page">
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_gCauMCH4EfCVlqDIl36G1g" name="Form Add Timelog">
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_MazY8CH5EfCVlqDIl36G1g" name="endTime">
             <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_TgDkYCH5EfCVlqDIl36G1g" name="endTime"/>

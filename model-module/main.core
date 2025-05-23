@@ -28,9 +28,9 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_a32doCdlEfCalNmtXmXVJQ" name="TimeLog">
-      <annotations text="TimeLog"/>
-      <viewElementEvents id="_BY0pECdmEfCalNmtXmXVJQ" name="TimeLog">
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_a32doCdlEfCalNmtXmXVJQ" name="Timelog">
+      <annotations text="Timelog"/>
+      <viewElementEvents id="_BY0pECdmEfCalNmtXmXVJQ" name="Timelog">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_WRYzYCdmEfCalNmtXmXVJQ">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="timelog.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
@@ -65,6 +65,22 @@
       <viewElementEvents id="_1BcQQDcJEfCCfr3A_Y6USg" name="ProjectWithBurndown">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_RD2LEDcKEfCCfr3A_Y6USg">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="projectWithBurndown.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_ZZukADciEfCjWpuTjuMvqw" name="TimelogDuration">
+      <annotations text="TimelogDuration"/>
+      <viewElementEvents id="_d2VSMDciEfCjWpuTjuMvqw" name="TimelogDuration">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_r0vGwDciEfCjWpuTjuMvqw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="timelogDuration.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_j_lvcDciEfCjWpuTjuMvqw" name="TimelogSession">
+      <annotations text="TimelogSession"/>
+      <viewElementEvents id="_ncq6UDciEfCjWpuTjuMvqw" name="TimelogSession">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="__mLQ8DciEfCjWpuTjuMvqw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="timelogSession.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
