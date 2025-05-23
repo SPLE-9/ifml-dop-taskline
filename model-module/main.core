@@ -84,6 +84,14 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_IO4kYDftEfCAsqsMJ8KJUg" name="TaskWithComment">
+      <annotations text="TaskWithComment"/>
+      <viewElementEvents id="_Msf_MDftEfCAsqsMJ8KJUg" name="TaskWithComment">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_OJ-p0DftEfCAsqsMJ8KJUg">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_7d9poSdkEfCalNmtXmXVJQ">
     <domainElements xsi:type="core:UMLDomainConcept" id="_7eHaoCdkEfCalNmtXmXVJQ" name="UserImpl">
