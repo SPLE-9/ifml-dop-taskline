@@ -73,6 +73,12 @@
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
+          <viewComponentParts xsi:type="core:DataBinding" id="_8LuXUD75EfCoR4uVzNNXig" name="Project List Data" uniformResourceIdentifier="call/project/list">
+            <subViewComponentParts xsi:type="ext:SelectionField" id="_ItTBgD76EfCoR4uVzNNXig" name="Project">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Qo60QD76EfCoR4uVzNNXig" name="projectId" direction="out"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_R14WoD76EfCoR4uVzNNXig" name="Title"/>
+            </subViewComponentParts>
+          </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="__kAtsCHtEfCEXJqvmcK_5Q" name="Save Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
