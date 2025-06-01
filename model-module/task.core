@@ -25,7 +25,7 @@
           <viewElementEvents id="_6wx1gCdOEfCHbe1wpsqx6g" name="Detail">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_9ORLoCdOEfCHbe1wpsqx6g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6">
               <parameterBindingGroup id="__nhO0CzcEfCG0sHSgQ2-ow">
-                <parameterBindings id="_AowCUCzdEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
+                <parameterBindings id="_AowCUCzdEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
