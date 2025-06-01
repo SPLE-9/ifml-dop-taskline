@@ -16,7 +16,7 @@
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_1qbWQCHpEfCEXJqvmcK_5Q" name="Table Task">
           <viewElementEvents id="_XkeOUCH0EfCEXJqvmcK_5Q" name="Hapus">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_dX7asCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_dX7asCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1">
               <parameterBindingGroup id="_hKrHUCzbEfCG0sHSgQ2-ow">
                 <parameterBindings id="_2PHxgCzbEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
               </parameterBindingGroup>
@@ -36,6 +36,11 @@
             </subViewComponentParts>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_0mARMD77EfCoR4uVzNNXig" name="Status" featureConcept="//@domainModel/@domainElements.61"/>
           </viewComponentParts>
+        </viewElements>
+        <viewElements xsi:type="ext:IFMLWindow" id="_RmT-sD78EfCoR4uVzNNXig" name="Confirm Delete Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+          <viewElementEvents id="_oNCT8D78EfCoR4uVzNNXig" name="Confirm Delete">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_2HD-0D78EfCoR4uVzNNXig" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5"/>
+          </viewElementEvents>
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_wqNSwCHrEfCEXJqvmcK_5Q" name="Create Task Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
@@ -122,7 +127,7 @@
           </outInteractionFlows>
         </actionEvents>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_cEtfUCH0EfCEXJqvmcK_5Q" name="Delete Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_cEtfUCH0EfCEXJqvmcK_5Q" name="Delete Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="DELETE"/>
         <actionEvents id="_rLkwwCH0EfCEXJqvmcK_5Q">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_tYabwCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
