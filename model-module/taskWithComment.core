@@ -45,7 +45,7 @@
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:AddedViewContainer" id="_Sdx6EDP3EfClXe1W-QDabQ" name="Create Comment Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="/comment/create"/>
+        <annotations text="/comment/save"/>
         <viewElements xsi:type="dop-extension:AddedForm" id="_eyIAkDP3EfClXe1W-QDabQ" name="Create Comment">
           <parameters id="_KVEl4DLsEfCXAKgh3_NpKg" name="taskId" direction="inout">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>

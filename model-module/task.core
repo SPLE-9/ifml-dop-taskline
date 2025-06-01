@@ -146,6 +146,7 @@
             </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_DrAUECH1EfCEXJqvmcK_5Q" name="Task Detail Data" uniformResourceIdentifier="call/task/detail">
+            <parameters id="_RmICYD8FEfCoR4uVzNNXig" name="taskId" direction="inout"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_VzqikCH1EfCEXJqvmcK_5Q" name="Title">
               <featureConcept href="appointment.core#//@domainModel/@domainElements.59"/>
             </subViewComponentParts>
