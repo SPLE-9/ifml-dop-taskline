@@ -15,9 +15,6 @@
           </outInteractionFlows>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_1qbWQCHpEfCEXJqvmcK_5Q" name="Table Task">
-          <parameters id="_CZnCYCwhEfCG0sHSgQ2-ow" name="projectId" direction="inout">
-            <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
-          </parameters>
           <viewElementEvents id="_XkeOUCH0EfCEXJqvmcK_5Q" name="Hapus">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_dX7asCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5">
               <parameterBindingGroup id="_hKrHUCzbEfCG0sHSgQ2-ow">
@@ -32,13 +29,12 @@
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_3spFoCHpEfCEXJqvmcK_5Q" name="List Task" uniformResourceIdentifier="call/task/list">
-            <parameters id="_EHUkgC9aEfCoi-5oe8LSFw" name="taskId">
-              <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
-            </parameters>
+          <viewComponentParts xsi:type="core:DataBinding" id="_3spFoCHpEfCEXJqvmcK_5Q" name="Task List Data" uniformResourceIdentifier="call/task/list">
+            <parameters id="_a2PHYD77EfCoR4uVzNNXig" name="taskId" direction="inout"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_W6__ECHqEfCEXJqvmcK_5Q" name="Title">
               <featureConcept href="project.core#//@domainModel/@domainElements.20"/>
             </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_0mARMD77EfCoR4uVzNNXig" name="Status" featureConcept="//@domainModel/@domainElements.61"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>

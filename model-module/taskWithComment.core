@@ -7,7 +7,6 @@
           <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_CdaYUDP4EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1">
             <parameterBindingGroup id="_mJtcsDP4EfClXe1W-QDabQ">
               <parameterBindings id="_pxs3EDP4EfClXe1W-QDabQ">
-                <sourceParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
                 <targetParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0"/>
               </parameterBindings>
             </parameterBindingGroup>
@@ -23,7 +22,6 @@
                 <parameterBindings id="_JVn7YDP6EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0"/>
                 <parameterBindings id="_GamCwDP8EfClXe1W-QDabQ">
                   <sourceParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
-                  <targetParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
                 </parameterBindings>
               </parameterBindingGroup>
             </outInteractionFlows>
@@ -31,10 +29,7 @@
           <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_emtogDP8EfClXe1W-QDabQ" name="Edit Komentar">
             <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_kvWasDP8EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4">
               <parameterBindingGroup id="_mmjz8DP8EfClXe1W-QDabQ">
-                <parameterBindings id="_x74tcDP8EfClXe1W-QDabQ">
-                  <sourceParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                  <targetParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                </parameterBindings>
+                <parameterBindings id="_x74tcDP8EfClXe1W-QDabQ"/>
                 <parameterBindings id="_ywT0ADP8EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0"/>
               </parameterBindingGroup>
             </outInteractionFlows>
@@ -58,10 +53,7 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_9H4ooDP4EfClXe1W-QDabQ" name="Tambahkan">
             <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_DKg5cDP5EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
               <parameterBindingGroup id="_F7-UcDP5EfClXe1W-QDabQ">
-                <parameterBindings id="_H80x4DP5EfClXe1W-QDabQ">
-                  <sourceParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                  <targetParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                </parameterBindings>
+                <parameterBindings id="_H80x4DP5EfClXe1W-QDabQ"/>
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
@@ -132,9 +124,7 @@
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_y6DT8DP-EfClXe1W-QDabQ" name="AddedActionEvent">
           <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_3ZlaUDP-EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0">
             <parameterBindingGroup id="_F6dCwDP_EfClXe1W-QDabQ">
-              <parameterBindings id="_PRgRsDP_EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@parameters.0">
-                <targetParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-              </parameterBindings>
+              <parameterBindings id="_PRgRsDP_EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@parameters.0"/>
             </parameterBindingGroup>
           </outInteractionFlows>
         </actionEvents>
