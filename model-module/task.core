@@ -15,10 +15,10 @@
           </outInteractionFlows>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_1qbWQCHpEfCEXJqvmcK_5Q" name="Table Task">
-          <viewElementEvents id="_XkeOUCH0EfCEXJqvmcK_5Q" name="Hapus">
+          <viewElementEvents id="_XkeOUCH0EfCEXJqvmcK_5Q" name="Delete">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_dX7asCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1">
               <parameterBindingGroup id="_hKrHUCzbEfCG0sHSgQ2-ow">
-                <parameterBindings id="_2PHxgCzbEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
+                <parameterBindings id="_2PHxgCzbEfCG0sHSgQ2-ow" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
