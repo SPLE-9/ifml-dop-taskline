@@ -32,7 +32,7 @@
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_3spFoCHpEfCEXJqvmcK_5Q" name="List Task" uniformResourceIdentifier="call/project-task/list">
+          <viewComponentParts xsi:type="core:DataBinding" id="_3spFoCHpEfCEXJqvmcK_5Q" name="List Task" uniformResourceIdentifier="call/task/list">
             <parameters id="_EHUkgC9aEfCoi-5oe8LSFw" name="taskId">
               <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
             </parameters>
