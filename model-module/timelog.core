@@ -27,7 +27,11 @@
             </viewElementEvents>
             <viewElements xsi:type="ext:List" id="_0LYMECHuEfCVlqDIl36G1g" name="Table My Timelog">
               <viewElementEvents id="_kRlW8CHwEfCVlqDIl36G1g" name="Edit Timelog">
-                <outInteractionFlows xsi:type="core:NavigationFlow" id="_m7YqwCHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+                <outInteractionFlows xsi:type="core:NavigationFlow" id="_m7YqwCHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+                  <parameterBindingGroup id="_r6xSsD84EfCoR4uVzNNXig">
+                    <parameterBindings id="_xcEYED84EfCoR4uVzNNXig" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElements.1/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0"/>
+                  </parameterBindingGroup>
+                </outInteractionFlows>
               </viewElementEvents>
               <viewComponentParts xsi:type="core:DataBinding" id="_J4jqMCHvEfCVlqDIl36G1g" name="Table My Timelog" uniformResourceIdentifier="call/timelog/list/me">
                 <parameters id="_ZNkFUCHvEfCVlqDIl36G1g" name="timelogId" direction="inout"/>
@@ -73,7 +77,7 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_kzbAECHtEfCVlqDIl36G1g" name="Save">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_xB9SICHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_auu58CHrEfCVlqDIl36G1g" name="Edit Timelog Data" uniformResourceIdentifier="call/project/detail">
+          <viewComponentParts xsi:type="core:DataBinding" id="_auu58CHrEfCVlqDIl36G1g" name="Edit Timelog Data" uniformResourceIdentifier="call/timelog/detail">
             <subViewComponentParts xsi:type="ext:SimpleField" id="_8fthICHrEfCVlqDIl36G1g" name="Note">
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_AgP-YCHsEfCVlqDIl36G1g" name="timelogNote"/>
             </subViewComponentParts>
