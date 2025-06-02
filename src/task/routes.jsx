@@ -8,6 +8,8 @@ import TableTaskPage from './containers/TableTaskPage'
 import CreateTaskPage from './containers/CreateTaskPage'
 import EditTask from './containers/EditTask'
 import DetailTask from './containers/DetailTask'
+import CreateCommentPage from './containers/CreateCommentPage'
+import EditCommentPage from './containers/EditCommentPage'
 
 const taskRoutes = [
 { 
@@ -28,6 +30,16 @@ const taskRoutes = [
 { 
     path: "/task/:taskId",
     element: <DetailTask />,
+  }	
+,
+{ 
+    path: "/task/:taskId/comment/add",
+    element: <CreateCommentPage />,
+  }	
+,
+{ 
+    path: "/task/:taskId/comment/edit/:commentId",
+    element: <EditCommentPage />,
   }	
 
 ]

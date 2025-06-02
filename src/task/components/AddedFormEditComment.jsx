@@ -4,7 +4,7 @@
 	version 3.11.1
 */
 import React from "react";
-import { useNavigate, useSearchParams } from "react-router";
+import { useNavigate, useParams, useSearchParams } from "react-router";
 import { Controller, useForm } from "react-hook-form";
 import {
   Button,
@@ -27,31 +27,32 @@ import {
   findAllowedPermission,
 } from "@/commons/constants/allowedPermission";
 import cleanFormData from "@/commons/utils/cleanFormData";
-import saveTask from '../services/saveTask'
+import updateComment from '../services/updateComment'
 import { notifyError, notifySuccess} from "@/commons/utils/toaster";
 import * as Layouts from "@/commons/layouts";
 
-const FormCreateTask = ({ 
-	projectListData
+const AddedFormEditComment = ({ 
+	commentData
  }) => {
   const { 
     control, 
     handleSubmit,
-  } = useForm()
+  } = useForm({ defaultValues: commentData })
   
-  
+  const { taskId, commentId } = useParams()
   
   
   const navigate = useNavigate()
   
-  const create = (data) => {
+  const edit = (data) => {
     const cleanData = cleanFormData(data)
-    saveTask({
+    updateComment({
       ...cleanData,
+      commentId,
     })
     .then(({ data: { data } }) => {
-      navigate(`/task`)
-  	notifySuccess(`Save Task berhasil!`);
+     navigate(`/task/${taskId}`)
+  	notifySuccess(`Update Comment berhasil!`);
     })
     .catch((error) => {
       console.error(error);
@@ -63,8 +64,8 @@ const FormCreateTask = ({
   return (
 	<div>
 	  <Layouts.FormComponentLayout
-		  title="Create Task" 
-		  onSubmit={handleSubmit(create)}
+		  title="Edit Comment" 
+		  onSubmit={handleSubmit(edit)}
 	
 	    vas={[
 		  ]}
@@ -72,29 +73,14 @@ const FormCreateTask = ({
 		  formFields={[
 	
 	      <Controller
-	        key="title"
-	        name="title"
+	        key="content"
+	        name="content"
 	        control={control}
 	        render={({ field, fieldState }) => (
 	        <InputField
-	          label="Title"
-	          placeholder="Masukkan title"
-	          fieldState={fieldState}
-	          {...field}
-	          isRequired={false}
-	        />
-	        )}
-	      />
-	
-	,
-	      <Controller
-	        key="description"
-	        name="description"
-	        control={control}
-	        render={({ field, fieldState }) => (
-	        <InputField
-	          label="Description"
-	          placeholder="Masukkan description"
+	          label="Content"
+	          placeholder="Masukkan content"
+	          defaultValue={commentData.content}
 	          fieldState={fieldState}
 	          {...field}
 	          isRequired={false}
@@ -104,29 +90,10 @@ const FormCreateTask = ({
 	
 		  ,
 	
-	
-	      <Controller
-	        key="projectId"
-	        name="projectId"
-	        control={control}
-	        render={({ field, fieldState }) => (
-	        <SelectionField
-	          
-	          label="Project"
-	          options={projectListData}
-	          optionKey="projectId"
-	          optionLabel="title"
-	          placeholder="Masukkan project"
-	          fieldState={fieldState}
-	          {...field}
-	          isRequired={false}
-	        />
-	        )}
-	      />
 		  ]}
 	
 		  itemsEvents={[
-		    <Button id="_IrpAkCHuEfCEXJqvmcK_5Q" key="Create" type="submit" variant="primary">Create</Button>
+		    <Button id="_NMhEwD98EfCoR4uVzNNXig" key="Edit" type="submit" variant="primary">Edit</Button>
 	    ]}
 	  />
 	    
@@ -134,4 +101,4 @@ const FormCreateTask = ({
   )
 }
 
-export default FormCreateTask
+export default AddedFormEditComment

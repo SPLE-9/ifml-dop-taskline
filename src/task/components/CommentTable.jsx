@@ -43,7 +43,7 @@ const CommentTable = ({ commentData,
             </Button>
           </Link>
   ,
-          <Link to={`/comment/edit/${commentItem.commentId}`}>
+          <Link to={`/task/${taskId}/comment/edit/${commentItem.commentId}`}>
     <Button
       id="_emtogDP8EfClXe1W-QDabQ"
       size="sm"
