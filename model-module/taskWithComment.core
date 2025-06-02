@@ -111,7 +111,7 @@
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_958wED9vEfCoR4uVzNNXig" name="Task Data" uniformResourceIdentifier="call/comment/detail">
             <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_KAWhMD9wEfCoR4uVzNNXig" name="Comment">
-              <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_Ob9w4D9wEfCoR4uVzNNXig" name="comment"/>
+              <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_Ob9w4D9wEfCoR4uVzNNXig" name="content"/>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
