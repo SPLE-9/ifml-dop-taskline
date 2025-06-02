@@ -22,13 +22,9 @@
             <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </parameters>
           <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_wAjJgDP5EfClXe1W-QDabQ" name="Hapus Komentar">
-            <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_4jurgDP5EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+            <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_4jurgDP5EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1">
               <parameterBindingGroup id="_-0mzsDP5EfClXe1W-QDabQ">
-                <parameterBindings id="_JVn7YDP6EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0"/>
-                <parameterBindings id="_GamCwDP8EfClXe1W-QDabQ">
-                  <sourceParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6/@viewElements.0/@parameters.0"/>
-                  <targetParameter href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                </parameterBindings>
+                <parameterBindings id="_JVn7YDP6EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
@@ -36,7 +32,7 @@
             <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_kvWasDP8EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4">
               <parameterBindingGroup id="_mmjz8DP8EfClXe1W-QDabQ">
                 <parameterBindings id="_x74tcDP8EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.1"/>
-                <parameterBindings id="_ywT0ADP8EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0"/>
+                <parameterBindings id="_ywT0ADP8EfClXe1W-QDabQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.0"/>
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
@@ -48,6 +44,15 @@
               <featureConcept href="appointment.core#//@domainModel/@domainElements.71"/>
             </subViewComponentParts>
           </viewComponentParts>
+        </viewElements>
+        <viewElements xsi:type="ext:IFMLWindow" id="_xIzs8D98EfCoR4uVzNNXig" name="Confirm Delete Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+          <viewElementEvents id="_D0V_AD99EfCoR4uVzNNXig" name="Delete">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_JnBvUD99EfCoR4uVzNNXig" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+              <parameterBindingGroup id="_SWQwUD99EfCoR4uVzNNXig">
+                <parameterBindings id="_WB0cED99EfCoR4uVzNNXig" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
+          </viewElementEvents>
         </viewElements>
         <modifies href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6"/>
       </interactionFlowModelElement>
@@ -82,23 +87,18 @@
           </outInteractionFlows>
         </actionEvents>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_2AB_sDP5EfClXe1W-QDabQ" name="Delete Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_2AB_sDP5EfClXe1W-QDabQ" name="Delete Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="DELETE"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_SpyOYDP6EfClXe1W-QDabQ" name="AddedActionEvent">
           <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_UQ9nkDP6EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:AddedViewContainer" id="_Sdx6EDP3EfClXe1W-QDabQ" name="Edit Comment Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
-        <annotations text="/comment/edit"/>
-        <viewElements xsi:type="dop-extension:AddedForm" id="_eyIAkDP3EfClXe1W-QDabQ" name="Edit Comment">
-          <parameters id="_KVEl4DLsEfCXAKgh3_NpKg" name="commentId" direction="inout">
-            <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
-          </parameters>
-          <parameters id="_KVEl4DLsEfCXAKgh3_NpKg" name="taskId" direction="inout">
-            <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
-          </parameters>
-          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_9H4ooDP4EfClXe1W-QDabQ" name="Edit">
-            <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_DKg5cDP5EfClXe1W-QDabQ"/>
+        <annotations text="/comment/edit/:commentId"/>
+        <viewElements xsi:type="dop-extension:AddedForm" id="_rd2KsD97EfCoR4uVzNNXig" name="Edit Comment">
+          <parameters id="_wXbv0D97EfCoR4uVzNNXig" name="commentId" direction="inout"/>
+          <parameters id="_1RJQwD97EfCoR4uVzNNXig" name="taskId" direction="inout"/>
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_NMhEwD98EfCoR4uVzNNXig" name="Edit">
             <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_4zg3IDP9EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5">
               <parameterBindingGroup id="_UJqTcDP_EfClXe1W-QDabQ">
                 <parameterBindings id="_ZQ8WUDP_EfClXe1W-QDabQ">
@@ -109,14 +109,14 @@
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_958wED9vEfCoR4uVzNNXig" name="Task Data" uniformResourceIdentifier="call/comment/detail">
-            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_KAWhMD9wEfCoR4uVzNNXig" name="Comment">
-              <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_Ob9w4D9wEfCoR4uVzNNXig" name="content"/>
+          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_5ygjID97EfCoR4uVzNNXig" name="Comment Data" uniformResourceIdentifier="/call/comment/detail">
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_Cc1O8D98EfCoR4uVzNNXig" name="Content">
+              <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_H4BsUD98EfCoR4uVzNNXig" name="Content"/>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_E-gp0DP9EfClXe1W-QDabQ" name="Update Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_E-gp0DP9EfClXe1W-QDabQ" name="Update Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="PUT"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_y6DT8DP-EfClXe1W-QDabQ" name="AddedActionEvent">
           <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_3ZlaUDP-EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0">

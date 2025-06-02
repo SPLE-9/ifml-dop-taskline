@@ -71,7 +71,7 @@
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_AS8-sCHrEfCVlqDIl36G1g" name="Edit Timelog Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="/timelog/edit"/>
+        <annotations text="/timelog/edit/:timelogId"/>
         <viewElements xsi:type="ext:Form" id="_O2Oa4CHrEfCVlqDIl36G1g" name="Form Edit Timelog">
           <parameters id="_Ug7T4CHrEfCVlqDIl36G1g" name="timelogId" direction="inout"/>
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_kzbAECHtEfCVlqDIl36G1g" name="Save">
