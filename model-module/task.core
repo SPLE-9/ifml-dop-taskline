@@ -129,11 +129,8 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_tYabwCH0EfCEXJqvmcK_5Q" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_6laokCH0EfCEXJqvmcK_5Q" name="Detail Task">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_6laokCH0EfCEXJqvmcK_5Q" name="Detail Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0">
         <annotations text="/task/:taskId"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="ext:Details" id="_9SO0ICH0EfCEXJqvmcK_5Q" name="Task Detail">
           <parameters id="_LAX_ICH1EfCEXJqvmcK_5Q" name="taskId" direction="inout">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline.uml#_1qOvwCEqEfCMHZENt9PlSA"/>

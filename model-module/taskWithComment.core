@@ -3,7 +3,11 @@
   <interactionFlowModel id="_zPxX4DLjEfCXAKgh3_NpKg">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_uH3tcDP1EfClXe1W-QDabQ" name="TaskWithComment">
       <annotations text="AddedFeature"/>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_Ci4ZEDP2EfClXe1W-QDabQ" name="Detail Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_Ci4ZEDP2EfClXe1W-QDabQ" name="Detail Task">
+        <inInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.5/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_9foPsDP3EfClXe1W-QDabQ" name="Tambahkan Komentar">
           <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_CdaYUDP4EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1">
             <parameterBindingGroup id="_mJtcsDP4EfClXe1W-QDabQ">
