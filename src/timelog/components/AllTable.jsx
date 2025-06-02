@@ -29,14 +29,14 @@ const AllTable = ({ tableAllTImelog,
             id: "taskTitle",
             condition: "",
             label: "Task Title",
-            featureName: "title",
+            featureName: "taskTitle",
             editable: false
           }
   ,        {
             id: "userName",
             condition: "",
             label: "User Name",
-            featureName: "name",
+            featureName: "memberName",
             editable: false
           }
   ,        {

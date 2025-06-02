@@ -31,7 +31,7 @@ const MyTable = ({ tableMyTimelog,
             id: "taskTitle",
             condition: "",
             label: "Task Title",
-            featureName: "title",
+            featureName: "taskTitle",
             editable: false
           }
   ,        {
