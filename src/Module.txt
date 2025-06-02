@@ -270,6 +270,18 @@ TimelogDuration
 	
 	
 
+/*
+	Generated on 02/06/2025 by UI Generator PRICES-IDE
+	https://amanah.cs.ui.ac.id/research/ifml-regen
+	version 3.11.1
+*/
+
+/*
+	Generated on 02/06/2025 by UI Generator PRICES-IDE
+	https://amanah.cs.ui.ac.id/research/ifml-regen
+	version 3.11.1
+*/
+
 
 
 

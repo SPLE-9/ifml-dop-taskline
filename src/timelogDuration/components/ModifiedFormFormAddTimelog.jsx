@@ -27,6 +27,7 @@ import {
   findAllowedPermission,
 } from "@/commons/constants/allowedPermission";
 import cleanFormData from "@/commons/utils/cleanFormData";
+import saveTimelogDuration from '../services/saveTimelogDuration'
 import { notifyError, notifySuccess} from "@/commons/utils/toaster";
 import * as Layouts from "@/commons/layouts";
 
@@ -41,6 +42,21 @@ const ModifiedFormFormAddTimelog = ({
   
   
   const navigate = useNavigate()
+  
+  const addTimelog = (data) => {
+    const cleanData = cleanFormData(data)
+    saveTimelogDuration({
+      ...cleanData,
+    })
+    .then(({ data: { data } }) => {
+  	notifySuccess(`Save TimelogDuration berhasil!`);
+    })
+    .catch((error) => {
+      console.error(error);
+          notifyError(error);
+    });
+  }
+  
   
   return (
 	<div>
@@ -57,6 +73,7 @@ const ModifiedFormFormAddTimelog = ({
 		  ]}
 	
 		  itemsEvents={[
+		    <Button id="_xZ58oD9_EfCoR4uVzNNXig" key="Add Timelog" >Add Timelog</Button>
 	    ]}
 	  />
 	    

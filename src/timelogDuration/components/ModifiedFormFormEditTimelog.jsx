@@ -27,6 +27,7 @@ import {
   findAllowedPermission,
 } from "@/commons/constants/allowedPermission";
 import cleanFormData from "@/commons/utils/cleanFormData";
+import updateTimelogDuration from '../services/updateTimelogDuration'
 import { notifyError, notifySuccess} from "@/commons/utils/toaster";
 import * as Layouts from "@/commons/layouts";
 
@@ -42,11 +43,26 @@ const ModifiedFormFormEditTimelog = ({
   
   const navigate = useNavigate()
   
+  const save = (data) => {
+    const cleanData = cleanFormData(data)
+    updateTimelogDuration({
+      ...cleanData,
+    })
+    .then(({ data: { data } }) => {
+  	notifySuccess(`Update TimelogDuration berhasil!`);
+    })
+    .catch((error) => {
+      console.error(error);
+          notifyError(error);
+    });
+  }
+  
+  
   return (
 	<div>
 	  <Layouts.FormComponentLayout
 		  title="Form Edit Timelog" 
-		  onSubmit={handleSubmit()}
+		  onSubmit={handleSubmit(save)}
 	
 	    vas={[
 		  ]}
@@ -57,6 +73,7 @@ const ModifiedFormFormEditTimelog = ({
 		  ]}
 	
 		  itemsEvents={[
+		    <Button id="_uYvRsD9_EfCoR4uVzNNXig" key="Save" type="submit" variant="primary">Save</Button>
 	    ]}
 	  />
 	    

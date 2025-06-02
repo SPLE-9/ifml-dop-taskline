@@ -15,7 +15,6 @@ import MyTable from "../components/MyTable";
 import getTableMyTimelog from '../services/getTableMyTimelog'
 
 const MyTimelog = props => {
-  const { timelogId } = useParams()
   const { checkPermission } = useAuth();
   const [isLoading, setIsLoading] = useState({
 	tableMyTimelog: false,

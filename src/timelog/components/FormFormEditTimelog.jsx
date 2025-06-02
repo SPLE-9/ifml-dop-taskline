@@ -50,7 +50,7 @@ const FormFormEditTimelog = ({
       ...cleanData,
     })
     .then(({ data: { data } }) => {
-     navigate(`/timelog?tab=me`)
+     navigate(`/timelog`)
   	notifySuccess(`Update Timelog berhasil!`);
     })
     .catch((error) => {

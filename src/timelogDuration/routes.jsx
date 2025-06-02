@@ -9,12 +9,12 @@ import EditTimelogPage from './containers/EditTimelogPage'
 
 const timelogDurationRoutes = [
 { 
-    path: "",
+    path: "/timelogduration/add",
     element: <AddTimelogPage />,
   }	
 ,
 { 
-    path: "",
+    path: "/timelogduration/edit/:timelogId",
     element: <EditTimelogPage />,
   }	
 
