@@ -17,7 +17,7 @@
             </parameterBindingGroup>
           </outInteractionFlows>
         </viewElementEvents>
-        <viewElements xsi:type="dop-extension:AddedList" id="_TvUP4DP2EfClXe1W-QDabQ" name="Comment">
+        <viewElements xsi:type="dop-extension:AddedList" id="_TvUP4DP2EfClXe1W-QDabQ" name="Table Comment">
           <parameters id="_ekdJ8DLkEfCXAKgh3_NpKg" name="taskId" direction="inout">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
           </parameters>
