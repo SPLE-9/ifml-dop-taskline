@@ -71,7 +71,11 @@
       <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_AnSuwDP5EfClXe1W-QDabQ" name="Save Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_YN7o4DP5EfClXe1W-QDabQ" name="AddedActionEvent">
-          <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_bNfKQDP5EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+          <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_bNfKQDP5EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0">
+            <parameterBindingGroup id="_w6j9wD9JEfCoR4uVzNNXig">
+              <parameterBindings id="_y7i-ED9JEfCoR4uVzNNXig" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
+            </parameterBindingGroup>
+          </outInteractionFlows>
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_2AB_sDP5EfClXe1W-QDabQ" name="Delete Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
@@ -112,7 +116,11 @@
       <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_E-gp0DP9EfClXe1W-QDabQ" name="Update Comment" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
         <annotations text="PUT"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_y6DT8DP-EfClXe1W-QDabQ" name="AddedActionEvent">
-          <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_3ZlaUDP-EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+          <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_3ZlaUDP-EfClXe1W-QDabQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0">
+            <parameterBindingGroup id="_fPRnwD9JEfCoR4uVzNNXig">
+              <parameterBindings id="_jCDV0D9JEfCoR4uVzNNXig" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElements.0/@parameters.1" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@parameters.0"/>
+            </parameterBindingGroup>
+          </outInteractionFlows>
         </actionEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
