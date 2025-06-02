@@ -78,8 +78,8 @@
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_xB9SICHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_auu58CHrEfCVlqDIl36G1g" name="Edit Timelog Data" uniformResourceIdentifier="call/timelog/detail">
-            <subViewComponentParts xsi:type="ext:SimpleField" id="_8fthICHrEfCVlqDIl36G1g" name="Note">
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_AgP-YCHsEfCVlqDIl36G1g" name="timelogNote"/>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_8fthICHrEfCVlqDIl36G1g" name="Notes">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_AgP-YCHsEfCVlqDIl36G1g" name="timelogNotes"/>
             </subViewComponentParts>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_LQcxkCHsEfCVlqDIl36G1g" name="Task Title" featureConcept="//@domainModel/@domainElements.20"/>
             <subViewComponentParts xsi:type="ext:SimpleField" id="_TZGTsCHsEfCVlqDIl36G1g" name="Date">
