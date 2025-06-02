@@ -29,7 +29,7 @@
       <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_91J8Yj9_EfCoR4uVzNNXig" name="Save TimelogDuration" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <actionEvents id="_ib-IQD-AEfCoR4uVzNNXig"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_CKRiyT-AEfCoR4uVzNNXig" name="Update Timelog Duration" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_CKRiyT-AEfCoR4uVzNNXig" name="Update TimelogDuration" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <actionEvents id="_hhSBoD-AEfCoR4uVzNNXig"/>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
