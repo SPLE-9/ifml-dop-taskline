@@ -12,7 +12,7 @@
           <viewElements xsi:type="core:ViewContainer" id="_eakLICHuEfCVlqDIl36G1g" name="All Timelog">
             <annotations text="/timelog?tab=all"/>
             <viewElements xsi:type="ext:List" id="_1f-ngCHuEfCVlqDIl36G1g" name="Table All Timelog">
-              <viewComponentParts xsi:type="core:DataBinding" id="_JSfvwCHvEfCVlqDIl36G1g" name="Table All TImelog" uniformResourceIdentifier="call/timelog/list/all">
+              <viewComponentParts xsi:type="core:DataBinding" id="_JSfvwCHvEfCVlqDIl36G1g" name="Table All Timelog" uniformResourceIdentifier="call/timelog/list/all">
                 <parameters id="_RjR6MCHvEfCVlqDIl36G1g" name="timelogId"/>
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_dExAYCHvEfCVlqDIl36G1g" name="Date" featureConcept="//@domainModel/@domainElements.39"/>
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_38ROUCHvEfCVlqDIl36G1g" name="Task Title" featureConcept="//@domainModel/@domainElements.6"/>

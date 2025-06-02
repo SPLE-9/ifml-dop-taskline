@@ -4,24 +4,26 @@
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_z8dCcCHyEfCVlqDIl36G1g" name="TimelogDuration">
       <annotations text="AddedFeature"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_6IrUICHyEfCVlqDIl36G1g" name="Add Timelog Page">
+        <annotations text="/timelogduration/add"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_STMFcCH1EfCVlqDIl36G1g" name="Form Add Timelog">
           <viewElementEvents xsi:type="ext:OnSelectEvent" id="_xZ58oD9_EfCoR4uVzNNXig" name="Add Timelog">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_P5o1gD-AEfCoR4uVzNNXig" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_VHA38CH1EfCVlqDIl36G1g" name="Duration">
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_cVLu0CH1EfCVlqDIl36G1g" name="duration"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_cVLu0CH1EfCVlqDIl36G1g" name="timelogDuration"/>
           </viewComponentParts>
         </viewElements>
         <modifies href="timelog.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_Z7r18CH3EfCVlqDIl36G1g" name="Edit Timelog Page">
+        <annotations text="/timelogduration/edit/:timelogId"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_iUGSYCH3EfCVlqDIl36G1g" name="Form Edit Timelog">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_uYvRsD9_EfCoR4uVzNNXig" name="Save">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_NtkmkD-AEfCoR4uVzNNXig" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_zXmPoCH3EfCVlqDIl36G1g" name="Duration">
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_4eQAYCH3EfCVlqDIl36G1g" name="duration"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_4eQAYCH3EfCVlqDIl36G1g" name="timelogDuration"/>
           </viewComponentParts>
         </viewElements>
         <modifies href="timelog.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
