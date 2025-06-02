@@ -6,6 +6,7 @@
         <annotations text="/timelog"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.4/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="core:ViewContainer" id="_Wt-S4CHuEfCVlqDIl36G1g" name="Wrapper Tab">
           <annotations text="Tab"/>
           <viewElements xsi:type="core:ViewContainer" id="_eakLICHuEfCVlqDIl36G1g" name="All Timelog">
@@ -20,7 +21,7 @@
               </viewComponentParts>
             </viewElements>
           </viewElements>
-          <viewElements xsi:type="core:ViewContainer" id="_g5rR4CHuEfCVlqDIl36G1g" name="My Timelog" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0">
+          <viewElements xsi:type="core:ViewContainer" id="_g5rR4CHuEfCVlqDIl36G1g" name="My Timelog">
             <annotations text="/timelog?tab=me"/>
             <viewElementEvents id="_d_j_QCHwEfCVlqDIl36G1g" name="Add Timelog">
               <outInteractionFlows xsi:type="core:NavigationFlow" id="_gVcRgCHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
@@ -92,11 +93,7 @@
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_8Xr7oCHtEfCVlqDIl36G1g" name="Update Timelog" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="PUT"/>
         <actionEvents id="_yZcCcCHwEfCVlqDIl36G1g" name="actionEventUpdateTimelog">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_8i-eQCHwEfCVlqDIl36G1g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElements.1">
-            <parameterBindingGroup id="_2Ax_wCH0EfCVlqDIl36G1g">
-              <parameterBindings id="_5l_y8CH0EfCVlqDIl36G1g" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElements.1/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0"/>
-            </parameterBindingGroup>
-          </outInteractionFlows>
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_Zq-zwD-AEfCoR4uVzNNXig" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
