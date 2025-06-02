@@ -97,7 +97,7 @@
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_OzxxkCHwEfCEXJqvmcK_5Q" name="Edit Task Data" uniformResourceIdentifier="call/task/detail">
+          <viewComponentParts xsi:type="core:DataBinding" id="_OzxxkCHwEfCEXJqvmcK_5Q" name="Task Data" uniformResourceIdentifier="call/task/detail">
             <subViewComponentParts xsi:type="ext:SimpleField" id="_SuJ8cCHwEfCEXJqvmcK_5Q" name="Title">
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_WmdqwCHwEfCEXJqvmcK_5Q" name="title">
                 <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>

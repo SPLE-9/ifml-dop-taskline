@@ -52,7 +52,7 @@
         <modifies href="task.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.6"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:AddedViewContainer" id="_Sdx6EDP3EfClXe1W-QDabQ" name="Create Comment Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="/comment/save"/>
+        <annotations text="/comment/add"/>
         <viewElements xsi:type="dop-extension:AddedForm" id="_eyIAkDP3EfClXe1W-QDabQ" name="Create Comment">
           <parameters id="_KVEl4DLsEfCXAKgh3_NpKg" name="taskId" direction="inout">
             <type xsi:type="uml:DataType" href="../uml-dop-taskline-2.uml#_1qOvwCEqEfCMHZENt9PlSA"/>
@@ -109,11 +109,10 @@
               </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
-          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_HtXPADP4EfClXe1W-QDabQ" name="Content" direction="inout">
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_U6btQDP4EfClXe1W-QDabQ" name="content">
-              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_958wED9vEfCoR4uVzNNXig" name="Task Data">
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_KAWhMD9wEfCoR4uVzNNXig" name="Comment">
+              <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_Ob9w4D9wEfCoR4uVzNNXig" name="comment"/>
             </subViewComponentParts>
-            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
