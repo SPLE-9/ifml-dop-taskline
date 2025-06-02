@@ -17,7 +17,8 @@ const Button = ({
   size = "md",
 }) => {
   const interfaceKit = useAppearance();
-  const buttonStyle = (kit ?? interfaceKit).button[variant];
+  const resolvedKit = kit ?? interfaceKit;
+  const buttonStyle = resolvedKit?.button?.[variant] ?? "primary";
   const buttonVariant = BUTTON_CLASSNAMES[buttonStyle];
   const buttonSize = BUTTON_SIZES[size];
 
