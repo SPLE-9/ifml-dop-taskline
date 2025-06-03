@@ -27,7 +27,7 @@ import {
   findAllowedPermission,
 } from "@/commons/constants/allowedPermission";
 import cleanFormData from "@/commons/utils/cleanFormData";
-import updateTimelog from '../services/updateTimelog'
+import updateTimelogDuration from '../services/updateTimelogDuration'
 import { notifyError, notifySuccess} from "@/commons/utils/toaster";
 import * as Layouts from "@/commons/layouts";
 
@@ -46,7 +46,7 @@ const FormFormEditTimelog = ({
   
   const save = (data) => {
     const cleanData = cleanFormData(data)
-    updateTimelog({
+    updateTimelogDuration({
       ...cleanData,
     })
     .then(({ data: { data } }) => {

@@ -11,7 +11,7 @@ import { useParams } from "@/commons/hooks/useParams"
 import { HeaderContext } from "@/commons/components"
 import { useSearchParams } from "react-router";
 import FormFormEditTimelog from '../components/FormFormEditTimelog'
-import getEditTimelogData from '../services/getEditTimelogData'
+import getEditTimelogDurationData from '../services/getEditTimelogDurationData'
 
 const EditTimelogPage = props => {
   const { timelogId } = useParams()
@@ -31,7 +31,7 @@ const [editTimelogData, setEditTimelogData] = useState()
   useEffect(() => {
     const fetch = async () => {
 	  setIsLoading(prev => ({...prev, formEditTimelog: true}))
-      const { data: editTimelogDataResponse } = await getEditTimelogData({ timelogId  })
+      const { data: editTimelogDataResponse } = await getEditTimelogDurationData({ timelogId  })
 
 	  setEditTimelogData(editTimelogDataResponse.data)
 	  setIsLoading(prev => ({...prev, formEditTimelog: false}))
