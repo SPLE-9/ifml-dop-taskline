@@ -67,13 +67,14 @@ const ProjectDetail = ({ data }) => {
           Delete
         </Button>
         ,
+        <Link to={`/task`}>
           <Button
           id="_ETjLICZxEfCpHrP5kP8MPQ"
           variant="secondary"
         >
           View Tasks
         </Button>
-        
+        </Link>
       ]}
       itemsModals={[
         <Modal
