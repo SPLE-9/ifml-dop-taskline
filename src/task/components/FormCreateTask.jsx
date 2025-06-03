@@ -115,7 +115,7 @@ const FormCreateTask = ({
 	          label="Project"
 	          options={projectListData}
 	          optionKey="projectId"
-	          optionLabel="Title"
+	          optionLabel="title"
 	          placeholder="Masukkan project"
 	          fieldState={fieldState}
 	          {...field}
