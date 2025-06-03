@@ -52,7 +52,7 @@ useEffect(() => {
 		const fetchData = async () => {
 			try {
 				setIsLoading(prev => ({...prev, tableComment: true}))
-				const { data: commentData } = await getCommentData({ taskId })
+				const { data: commentData } = await getCommentListData({ taskId })
 				setCommentData(commentData.data)
 			} finally {
 				setIsLoading(prev => ({...prev, tableComment: false}))

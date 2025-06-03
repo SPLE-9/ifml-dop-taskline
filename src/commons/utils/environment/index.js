@@ -6,6 +6,6 @@ export default import.meta.env.MODE === "production"
     }
   : {
       production: false,
-      rootApi: `/api`,
+      rootApi: import.meta.env.VITE_BACKEND_URL,
       staticServerApi: `/static`,
     };
