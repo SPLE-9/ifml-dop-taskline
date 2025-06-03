@@ -14,7 +14,7 @@ import { useAuth } from '@/commons/auth';
 import TaskDetail from '../components/TaskDetail'
 import getTaskDetailData from '../services/getTaskDetailData'
 import CommentTable from "../components/CommentTable";
-import getCommentData from '../services/getCommentData'
+import getCommentListData from '../services/getCommentListData'
 
 const DetailTask = props => {
   const { taskId } = useParams()
@@ -66,7 +66,7 @@ useEffect(() => {
 		buttons={
 			<>
 			<Layouts.ViewContainerButtonLayout>
-			  	<Link to={`/comment/add
+			  	<Link to={`/task/${taskId}/comment/add
 			  	`}>
 			  		<Button id="_9foPsDP3EfClXe1W-QDabQ" className="p-2" variant="primary">
 			  		  Tambahkan Komentar

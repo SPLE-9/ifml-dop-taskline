@@ -7,6 +7,7 @@ import React, { useContext } from 'react';
 import { useNavigate, Link } from "react-router";
 import { useAuth } from '@/commons/auth';
 import { Button, Detail, VisualizationAttr, Modal, Spinner } from '@/commons/components';
+import deleteTask from '../services/deleteTask'
 
 import * as Layouts from "@/commons/layouts";
 
@@ -19,6 +20,15 @@ const TaskDetail = ({ data }) => {
         + `taskId=${data.taskId}`
         
       );
+    };
+
+    const [showModalConfirmDeleteTask, setShowModalConfirmDeleteTask] = React.useState(false);
+
+    const confirmDelete = async () => {
+      await deleteTask({
+        taskId: data.taskId,
+      });
+      navigate('/task');
     };
   
   
@@ -54,10 +64,30 @@ const TaskDetail = ({ data }) => {
           >
             Edit
           </Button>
+          ,
+          <Button
+            id="_3pUzQCHmEfChD41pi9QTAQ"
+            variant="secondary"
+            onClick={() => setShowModalConfirmDeleteTask(true)}
+          >
+            Delete
+          </Button>
         
       ]}
       itemsModals={[
-        
+        <Modal
+            isShow={showModalConfirmDeleteTask}
+            title={"Confirm Delete Task"}
+        >
+            <Link to=''><Button variant="tertiary" onClick={() => setShowModalConfirmDeleteTask(false)}>Batal</Button></Link>
+          <Button
+            id="_n1yzoCHnEfChD41pi9QTAQ"
+            variant="secondary"
+            onClick={() => confirmDelete()}
+          >
+            Confirm Delete
+          </Button>
+        </Modal>,
       ]}
     />
   );

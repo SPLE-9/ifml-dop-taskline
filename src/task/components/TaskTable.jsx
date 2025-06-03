@@ -24,13 +24,6 @@ const TaskTable = ({ taskListData,
     isMobile() && navigate(`/task/${taskItem.taskId}`
     );
   };
-  const [showModalConfirmDeleteTask, setShowModalConfirmDeleteTask] = React.useState(false);
-  
-  const confirmDelete = async (selectedConfirmDeleteTask) => {
-      await deleteTask({
-      });
-  		navigate('/task');
-    }
   
   return (
   <>
@@ -54,17 +47,6 @@ const TaskTable = ({ taskListData,
           }
   ]}
         itemsEvents={(taskItem) => [
-          <Link to=''>
-            <Button
-              id="_XkeOUCH0EfCEXJqvmcK_5Q"
-              size="sm"
-              variant=
-                          "secondary"
-            >
-              Delete
-            </Button>
-          </Link>
-  ,
           <Link to={`/task/${taskItem.taskId}`}>
     <Button
       id="_6wx1gCdOEfCHbe1wpsqx6g"
@@ -76,7 +58,10 @@ const TaskTable = ({ taskListData,
     </Button>
   </Link>
         ]}
+        
   	/>
+
+
   		
   </>
   )
