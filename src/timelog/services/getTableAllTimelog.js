@@ -7,7 +7,7 @@ const getTableAllTimelog = (params = {}) => {
 	const { getToken } = tokenManager();
 	const token = getToken();
 	let paramsGet = Object.assign(params, {token});
-	return axios.get(`${environment.rootApi}/call/timelog/list/all`, {
+	return axios.get(`${environment.rootApi}/call/timelogduration/list/all`, {
 		params: paramsGet,		
 		headers: {
 			'Authorization': token,

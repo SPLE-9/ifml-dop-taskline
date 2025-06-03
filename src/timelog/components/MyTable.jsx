@@ -41,6 +41,13 @@ const MyTable = ({ tableMyTimelog,
             featureName: "timelogNotes",
             editable: false
           }
+  ,        {
+            id: "Duration",
+            condition: "",
+            label: "Duration",
+            featureName: "timelogDuration",
+            editable: false
+          }
   ]}
         itemsEvents={(myItem) => [
           <Link to={`/timelog/edit/${myItem.timelogId}`}>

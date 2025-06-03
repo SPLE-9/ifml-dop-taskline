@@ -46,6 +46,13 @@ const AllTable = ({ tableAllTimelog,
             featureName: "timelogNotes",
             editable: false
           }
+  ,        {
+            id: "Duration",
+            condition: "",
+            label: "Duration",
+            featureName: "timelogDuration",
+            editable: false
+          }
   ]}
   	/>
   </>

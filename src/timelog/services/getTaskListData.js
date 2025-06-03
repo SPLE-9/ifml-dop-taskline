@@ -7,7 +7,7 @@ const getTaskListData = (params = {}) => {
 	const { getToken } = tokenManager();
 	const token = getToken();
 	let paramsGet = Object.assign(params, {token});
-	return axios.get(`${environment.rootApi}//call/task/list`, {
+	return axios.get(`${environment.rootApi}/call/task/list`, {
 		params: paramsGet,		
 		headers: {
 			'Authorization': token,
