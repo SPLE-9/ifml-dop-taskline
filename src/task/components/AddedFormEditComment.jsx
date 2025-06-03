@@ -39,7 +39,7 @@ const AddedFormEditComment = ({
     handleSubmit,
   } = useForm({ defaultValues: commentData })
   
-  
+  const { taskId, commentId } = useParams()
   
   
   const navigate = useNavigate()
@@ -48,10 +48,11 @@ const AddedFormEditComment = ({
     const cleanData = cleanFormData(data)
     updateComment({
       ...cleanData,
+      commentId,
     })
     .then(({ data: { data } }) => {
-     navigate(``)
   	notifySuccess(`Update Comment berhasil!`);
+    navigate(`/task/${taskId}`);
     })
     .catch((error) => {
       console.error(error);

@@ -31,7 +31,7 @@ const [commentData, setCommentData] = useState()
   useEffect(() => {
     const fetch = async () => {
 	  setIsLoading(prev => ({...prev, editComment: true}))
-      const { data: commentDataResponse } = await getCommentData({ commentId  })
+      const { data: commentDataResponse } = await getCommentData({ commentId, taskId  })
 
 	  setCommentData(commentDataResponse.data)
 	  setIsLoading(prev => ({...prev, editComment: false}))
