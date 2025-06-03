@@ -30,6 +30,7 @@ import cleanFormData from "@/commons/utils/cleanFormData";
 import updateComment from '../services/updateComment'
 import { notifyError, notifySuccess} from "@/commons/utils/toaster";
 import * as Layouts from "@/commons/layouts";
+import { useParams } from "@/commons/hooks/useParams"
 
 const AddedFormEditComment = ({ 
 	commentData
