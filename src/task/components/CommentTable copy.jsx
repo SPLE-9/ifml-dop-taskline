@@ -20,13 +20,14 @@ const CommentTable = ({ commentData,
   const [selectedConfirmDeleteComment, setSelectedConfirmDeleteComment] = React.useState(null);
   	const { 	taskId } = useParams();
   const [showModalConfirmDeleteComment, setShowModalConfirmDeleteComment] = React.useState(false);
-  
-  const delete = async (selectedConfirmDeleteComment) => {
+
+    const confirmDelete = async (selectedConfirmDeleteComment) => {
       await deleteComment({
-        commentId: selectedConfirmDeleteComment.commentId,
+        commentId: selectedConfirmDeleteComment.commentId
       });
-  		navigate('');
+  		window.location.reload();
     }
+
   
   return (
   <>
@@ -48,6 +49,11 @@ const CommentTable = ({ commentData,
               size="sm"
               variant=
                           "info"
+              onClick={() => {
+                  setSelectedConfirmDeleteComment(commentItem);
+                  setShowModalConfirmDeleteComment(true);
+                }}
+
             >
               Hapus Komentar
             </Button>
@@ -65,6 +71,23 @@ const CommentTable = ({ commentData,
   </Link>
         ]}
   	/>
+
+    <Modal
+  		isShow={showModalConfirmDeleteComment}
+  		title={"Confirm Delete Comment"}
+  		>
+  		
+  				<Link to=''><Button className={`w-full`} variant="tertiary" onClick={() => setShowModalConfirmDeleteComment(false)}>Batal</Button></Link>
+  		
+  		<Button
+  		  id="_CJk4EPKWEe-L4bPmfdjtoA"
+  		  variant="primary"
+  		  onClick={() => confirmDelete(selectedConfirmDeleteComment)}
+  		>
+  		  Confirm
+  		</Button>
+  		</Modal>,
+
   		
   </>
   )
